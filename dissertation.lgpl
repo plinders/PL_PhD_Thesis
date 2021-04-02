@@ -1,0 +1,317 @@
+############################### PERL CODE ################################
+sub latex_thumbyNumberFormat {
+    $thumby_number_format = $_[0] ;
+    # Slashes have to be doubled, as otherwise perl will interpret them as indicating
+    # that a special character follows.
+    $thumby_number_format =~ s{/}{//} ;
+    return "\\typeout{Thumby number format: $thumby_number_format}" ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbySides {
+    $thumby_sides = $_[0] ;
+
+    if ( $thumby_sides eq "one" ) {
+        $output = <<END;
+        % Using command from the bophook package to place a thumb index on each page.
+        \\AtBeginPage{%
+            \\thumbyprintthumbright{\\thumbychapnum}
+        }
+END
+    } elsif ( $thumby_sides eq "two" ) {
+        $output = <<END;
+        % Using command from the bophook package to place a thumb index on each page.
+        \\AtBeginPage{%
+            % Odd pages should have the thumb index on the right,
+            % while even ones on the left.
+            \\checkoddpage
+            \\ifoddpage
+               \\thumbyprintthumbright{\\thumbychapnum}
+            \\else
+               \\thumbyprintthumbleft{\\thumbychapnum}
+            \\fi
+        }
+END
+    } else {
+        $output = <<END;
+        \\PackageError{thumby}{\\protect\\thumbySides \\space must be "one" or "two"}{}
+END
+    }
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyBackground {
+    $thumby_background = $_[0] ;
+    return "" ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyForeground {
+    $thumby_foreground = $_[0] ;
+    return "" ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyPageHeight {
+    $thumby_page_height = $_[0] ;
+
+    # Sanity checks
+    if ( $thumby_page_height =~ m{^\d+$} ) {
+        # An integer.
+        # Looks good.  Doing nothing.
+        $output = "" ;
+    } elsif ( $thumby_page_height =~ m{^\d*\.\d+$} ) {
+        # A floating point number.
+        # Looks good.  Doing nothing.
+        $output = "" ;
+    } else {
+        $output = "\\PackageError{thumby}{\\protect\\thumbyPageHeight \\space must a number.}{}" ;
+    }
+
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyThumbWidth {
+    $thumby_thumb_width = $_[0] ;
+
+    # Sanity checks
+    if ( $thumby_thumb_width =~ m{^\d+$} ) {
+        # An integer.
+        # Looks good.  Doing nothing.
+        $output = "" ;
+    } elsif ( $thumby_thumb_width =~ m{^\d*\.\d+$} ) {
+        # A floating point number.
+        # Looks good.  Doing nothing.
+        $output = "" ;
+    } else {
+        $output = "\\PackageError{thumby}{\\protect\\thumbyThumbWidth \\space must a number.}{}" ;
+    }
+
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbySetup {
+    $thumby_thumb_height = $thumby_page_height / $thumby_total_chapters ;
+    $half_thumb_width = $thumby_thumb_width / 2 ;
+    $output = <<END;
+\\typeout{}
+\\typeout{** Thumby setup **}
+\\typeout{Sides: $thumby_sides}
+\\typeout{Total chapters: $thumby_total_chapters}
+\\typeout{Page height: $thumby_page_height points}
+\\typeout{Thumb height: $thumby_thumb_height points}
+\\typeout{Thumb width: $thumby_thumb_width points}
+\\typeout{Foreground: $thumby_foreground}
+\\typeout{Background: $thumby_background}
+\\typeout{Chapter number format: $thumby_number_format}
+\\typeout{}
+END
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyTotalChapters {
+    $thumby_total_chapters = $_[0] ;
+    my $output = "" ;
+    if ( $thumby_total_chapters =~ m{^\d+$} ) {
+        if ( $thumby_total_chapters < 1 ) {
+            $output = <<END;
+            \\PackageError{thumby}{\\protect\\thumbyTotalChapters \\space must be greater than 0.}{}
+END
+        } else {
+            # Looks good.  Doing nothing.
+            $output = "" ;
+        }
+    } else {
+        $output = <<END;
+        \\PackageError{thumby}{\\protect\\thumbyTotalChapters \\space must be an integer}{}
+END
+    }
+
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyprintthumb {
+    $thumby_chapter_number = shift ;
+    $left_or_right = shift ;
+
+    # Run some sanity checks on $thumby_chapter_number
+    if ( $thumby_chapter_number eq "" ) {
+        # Doing nothing
+        return ""
+    } elsif ( not ( $thumby_chapter_number =~ m{^\d+$} ) ) {
+        # $thumby_chapter_number is not a number
+        return 'ERROR: chapternumber "' . $thumby_chapter_number . '" is not a number' ;
+    } elsif ( $thumby_chapter_number < 1 ) {
+        # Doing nothing
+        return "" ;
+    }
+
+    # Determine the position of the thumb index
+    if ( $left_or_right eq "left" ) {
+        $horizontal_thumb_position = $half_thumb_width ;
+        $origin = "north west" ;
+    } elsif ( $left_or_right eq "right" ) {
+        $horizontal_thumb_position = -$half_thumb_width ;
+        $origin = "north east" ;
+    }
+
+    $vertical_thumb_position = ( $thumby_chapter_number * $thumby_thumb_height ) - $thumby_thumb_height ;
+
+    $thumby_formatted_chapter_number = $thumby_number_format ;
+    $thumby_formatted_chapter_number =~ s{\$chapter_number}{$thumby_chapter_number} ;
+
+# Tikz code to draw the chapter number surrounded by a box:
+$output = <<END;
+\\pgfrememberpicturepositiononpagetrue
+\\begin{pgfpicture}
+\\pgfusepath{use as bounding box}
+\\pgftransformshift{\\pgfpointanchor{current page}{$origin}}
+\\pgftransformshift{\\pgfpoint{$horizontal_thumb_position}{-$vertical_thumb_position}}
+\\pgfset{minimum width=$thumby_thumb_width}
+\\pgfset{minimum height=$thumby_thumb_height}
+\\pgfsetfillcolor{$thumby_background}
+\\pgfnode{rectangle}{north}{}{thumb}{\\pgfusepath{fill}}
+\\pgfsetfillcolor{$thumby_foreground}
+\\pgfnode{rectangle}{north}{$thumby_formatted_chapter_number}{thumb}{\\pgfusepath{stroke}}
+\\end{pgfpicture}
+END
+    return $output ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyprintthumbleft {
+    $thumby_chapter_number = $_[0] ;
+    return latex_thumbyprintthumb( $thumby_chapter_number, "left" ) ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+sub latex_thumbyprintthumbright {
+    $thumby_chapter_number = $_[0] ;
+    return latex_thumbyprintthumb( $thumby_chapter_number, "right" ) ;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbySides ('one');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Using command from the bophook package to place a thumb index on each page.
+        \AtBeginPage{%
+            \thumbyprintthumbright{\thumbychapnum}
+        }
+
+
+############################### PERL CODE ################################
+latex_thumbyTotalChapters ('10');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyPageHeight ('795');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyThumbWidth ('42.5');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyForeground ('white');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyBackground ('black');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyNumberFormat ('\\Huge  \\textbf  {$chapter_number}');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\typeout{Thumby number format: \Huge  \textbf  {$chapter_number}}
+
+############################### PERL CODE ################################
+latex_thumbySetup ();
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\typeout{}
+\typeout{** Thumby setup **}
+\typeout{Sides: one}
+\typeout{Total chapters: 10}
+\typeout{Page height: 795 points}
+\typeout{Thumb height: 79.5 points}
+\typeout{Thumb width: 42.5 points}
+\typeout{Foreground: white}
+\typeout{Background: black}
+\typeout{Chapter number format: \Huge  \textbf  {$chapter_number}}
+\typeout{}
+
+
+############################### PERL CODE ################################
+latex_thumbyprintthumbright ('');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyprintthumbright ('');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyprintthumbright ('');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+############################### PERL CODE ################################
+latex_thumbyprintthumbright ('');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LATEX RESULT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

@@ -1,0 +1,75 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+
+
+\documentclass{Dissertate}
+\usepackage{notoccite}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{array}
+
+%\usepackage{atveryend}
+
+\begin{document}
+
+% the front matter
+% \input{frontmatter/personalize}
+% \maketitle
+% \copyrightpage
+\frontmatter
+\setstretch{\dnormalspacing}
+% \abstractpage
+
+% %\authorlist
+% \listoffigures
+% \dedicationpage
+% \acknowledgments
+
+% \doublespacing
+
+% include each chapter...
+\setcounter{chapter}{0}  % start chapter numbering at 0
+%\include{chapters/introduction}
+% \include{chapters/frontmatter}
+% \pdfbookmark{\contentsname}{Contents}
+\cleartoleftpage
+\include{chapters/chapter1}
+\cleartoleftpage
+\include{chapters/chapter2}
+\cleartoleftpage
+\include{chapters/chapter3}
+\cleartoleftpage
+\include{chapters/chapter4}
+\cleartoleftpage
+\include{chapters/chapter5}
+\cleartoleftpage
+\include{chapters/chapter6}
+\cleartoleftpage
+\include{chapters/chapter7}
+\cleartoleftpage
+\include{chapters/chapter8}
+
+
+\setstretch{\dnormalspacing}
+
+% the back matter
+% \backmatter
+
+\clearpage
+% \bibliography{references.bib}
+% \addcontentsline{toc}{chapter}{References}
+% \bibliographystyle{naturemag}
+
+\begin{spacing}{\dcompressedspacing}
+    \addcontentsline{toc}{chapter}{References}
+    \footnotesize
+    \bibliography{references}
+    \bibliographystyle{naturemag}
+    % \include{endmatter/colophon}
+\end{spacing}
+
+
+% \include{endmatter/colophon}
+
+\end{document}

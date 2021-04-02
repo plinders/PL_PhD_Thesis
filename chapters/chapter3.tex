@@ -1,0 +1,160 @@
+%!TEX root = ../dissertation.tex
+% Insert PDF
+% ex. \includepdf{figures/inserts/ch6.pdf}
+\includepdf{figures/inserts/ch3.pdf}
+
+% Set chapter number color to be similar to the insert color
+\definecolor{chaptergrey}{rgb}{0.126326, 0.644107, 0.525311}
+% Set citation number color to be similar to the insert color
+\definecolor{SchoolColor}{rgb}{0.126326, 0.644107, 0.525311}
+
+\thispagestyle{empty}
+\begin{savequote}
+    \normalfont\normalsize{P.T.A. Linders, M. ter Beest, and G. van den Bogaart\\
+        \emph{BioRxiv} 2021.03.29.437519}
+\end{savequote}
+\chapter{Fluorescence lifetime imaging of pH along the secretory pathway}
+\thispagestyle{empty}
+
+\clearpage
+\addthumb{\thechapter}{\Large{\thechapter}}{white}{chaptergrey}
+
+\section{Abstract}
+
+Many cellular processes are dependent on correct pH levels, and this is especially important for the secretory pathway. Defects in pH homeostasis in distinct organelles cause a wide range of diseases, including disorders of glycosylation and lysosomal storage diseases. Ratiometric imaging of the pH-sensitive mutant of green fluorescent protein (GFP), pHLuorin, has allowed for targeted pH measurements in various organelles, but the required sequential image acquisition is intrinsically slow and therefore the temporal resolution is unsuitable to follow the rapid transit of cargo between organelles. We therefore applied fluorescence lifetime imaging microscopy (FLIM) to measure intraorganellar pH with just a single excitation wavelength. We first validated this method by confirming the pH in multiple compartments along the secretory pathway. Then, we analyze the dynamic pH changes within cells treated with Brefeldin A, a COPI coat inhibitor. Finally, we followed the pH changes of newly-synthesized molecules of the inflammatory cytokine tumor necrosis factor (TNF)-$\alpha$ while it was in transit from the endoplasmic reticulum via the Golgi to the plasma membrane. The toolbox we present here can be applied to measure intracellular pH with high spatial and temporal resolution, and can be used to assess organellar pH in disease models.
+
+\clearpage
+
+\section{Introduction}
+
+Physiological pH homeostasis is crucial for many cellular processes. Not only the cytosolic pH is of importance, but defined intraorganellar pH delineates the secretory pathway. The pH of the endoplasmic reticulum (ER) is approximately 7, while the Golgi apparatus slightly acidifies from pH 6.7 at the \emph{cis} face to pH 6.0 at the \emph{trans} face\cite{casey_sensors_2010,paroutis_ph_2004,schapiro_determinants_2000}. Before secretory cargo is released at the plasma membrane and reaches the neutral pH of the extracellular environment, the pH in secretory vesicles is about 5.2\cite{casey_sensors_2010,paroutis_ph_2004}.
+
+pH is not only crucial for proper protein folding and enzyme activity through influencing the charge of amino acid side chains, but its importance in secretory protein transport is increasingly clear\cite{linders_sugary_2020}. pH affects binding affinities of cargo molecules to trafficking chaperones, and thereby pH differences facilitate intracellular transport by both influencing the transit of cargo\cite{appenzeller-herzog_ph-induced_2004,vavassori_ph-regulated_2013,sannino_progressive_2014,watanabe_structural_2017,caplan_dependence_1987,kokkonen_defective_2004,kamiya_molecular_2008} and the sorting of secretory pathway resident proteins\cite{brauer_structural_2019,wilson_ph-dependent_1993,shibuya_erv41erv46_2015}. Moreover, the localization of glycosylation enzymes and their substrates is determined by pH\cite{linders_sugary_2020,rivinoja_elevated_2009,hassinen_functional_2011,hassinen_organizational_2014,kellokumpu_golgi_2019}, and defects in this homeostasis cause a wide range of human disease\cite{linders_sugary_2020,kornak_impaired_2008,morava_defective_2005,jansen_atp6ap1_2016,rujano_mutations_2017,cannata_serio_mutations_2020,jansen_ccdc115_2016,jansen_tmem199_2016}. Being able to accurately determine intraorganellar pH along the secretory pathway is therefore of both fundamental and diagnostic importance.
+
+Fluorescent dyes that allow the measurement of intraorganellar pH exist and are commercially available\cite{johnson_position_2016,damore_synthesis_2018,overly_quantitative_1995,liu_real-time_2019,ma_live-cell_2017}, but the inability of specific organellar targeting is a major drawback. The pH in the lumen of the Golgi and ER in mammalian cells have been measured using Shiga-like toxins covalently bound to fluorescent dyes\cite{kim_dynamic_1996,kim_noninvasive_1998} and with the biotin-avidin system\cite{wu_organelle_2000}. However, especially the development of pH-sensitive mutants of green fluorescent protein (GFP), such as pHLuorin\cite{miesenbock_visualizing_1998,mahon_phluorin2:_2011}, which can be targeted to specific organelles by fusion proteins, have enabled specific measurement of intracellular compartments. Two classes of pHLuorin were developed by mutagenesis which altered the bimodal excitation spectrum of GFP with peaks at 395 and 475 nm\cite{miesenbock_visualizing_1998,ward_spectral_1982}. First, ecliptic pHLuorin which shows a reduction of its excitation efficiency at 475 nm at pH values lower than 6. Second, ratiometric pHLuorin which shows a gradual increase in the ratio of excitation at 475/395 nm between pH 5.5 and pH 7.5\cite{miesenbock_visualizing_1998}. With ecliptic pHLuorin, intraorganellar pH can be determined by first recording an image at 475 nm excitation, and then correlating the fluorescence intensities with a calibration curve. The pH can be determined with ratiometric pHLuorin using a similar approach, but now by sequentially recording images at 395 and 475 nm. A new version of ratiometric pHLuorin, ratiometric pHLuorin2 (RpHLuorin2) was later developed with 8-fold improved fluorescence\cite{mahon_phluorin2:_2011}.
+
+Ecliptic pHLuorin is less accurate than ratiometric pHLuorin, because the fluorescence intensity not only depends on the pH but also on the concentration of pHLuorin. However, ratiometric imaging also has several drawbacks, such as sensitivity to background fluorescence leading to high variation in the ratio values and the need for two sequential image acquisitions with two different excitation wavelengths. As the exocytic pathway is highly dynamic, the sequential imaging could potentially result in misalignment of the emitted signal, compromising the calculation of ratio values.
+
+In this study, we exploit fluorescence lifetime, an intrinsic property of fluorophores that is insensitive to changes in laser intensity or protein concentration\cite{wallrabe_imaging_2005,jares-erijman_fret_2003} but is sensitive to pH\cite{schmitt_egfp-phsens_2014,lin_fluorescence_2003}, to accurately measure intraorganellar pH with both high spatial and temporal resolution.
+
+\section{Results}
+
+\subsection{FLIM measurements of recombinant ratiometric pHLuorin2}
+
+We first measured the fluorescence excitation spectra of recombinant RpHLuorin2 (Supplementary Figure~\ref{fig:ch3supfig1}) in different pH solutions with a fluorescence spectrometer. As expected\cite{miesenbock_visualizing_1998}, we observed strong dependence of the excitation efficiencies on pH, as a higher pH resulted in an increased emission brightness (at 508 nm) at an excitation wavelength of 470 nm, whereas the fluorescence brightness was reduced at an excitation wavelength of 405 nm (Supplementary Figure~\ref{fig:ch3supfig1}a). We then plotted the ratios of the emission signals with 470 nm over 405 nm excitation as a function of the pH and fitted this data with a three-parameter Michaelis-Menten function, as the (de)protonation states of RpHLuorin2 will saturate at very high and low pH values (Supplementary Figure~\ref{fig:ch3supfig1}b). The largest changes in fluorescence of RpHLuorin2 were observed between pH 5.5 and pH 7, making RpHLuorin2 an excellent candidate for pH measurements in the secretory pathway.
+
+As ratiometric determination of pH with RpHLuorin2 requires two sequential image acquisitions with different excitation wavelengths, we investigated whether fluorescence lifetime imaging microscopy (FLIM) would be an appropriate substitute to allow for single-scan imaging. We hypothesized that as the lifetime of fluorophores is influenced by pH\cite{schmitt_egfp-phsens_2014,lin_fluorescence_2003}, the pH sensitivity of RpHLuorin2 would allow for accurate pH measurement based on fluorescence lifetime. Therefore, we performed FLIM of recombinant RpHLuorin2 in different pH solutions at 488 nm excitation (Figure~\ref{fig:ch3fig1}).  We observed a similar dependency of the lifetime as a function of pH (Figure~\ref{fig:ch3fig1}) as in the ratiometric measurements (Supplementary Figure~\ref{fig:ch3supfig1}), and the fluorescence lifetime increased upon an increasing pH. We then fused RpHLuorin2 to several intraorganellar markers in the secretory pathway to perform pH measurements in living cells.
+
+\begin{figure}
+    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter3/chapter3_Figure1.pdf}
+    \caption{\textbf{Fluorescence lifetime imaging microscopy (FLIM) of recombinant RpHLuorin2.} (Continued on the following page.)}
+    \label{fig:ch3fig1}
+\end{figure}
+\begin{figure}[t]
+    \contcaption{\textbf{(a)} Representative confocal images of 10 $\mu$M recombinant RpHLuorin2 in calibration buffers with defined pH. The intensity image (left column) was convoluted with the fluorescent lifetime value per pixel and pseudo-colored (right column). \textbf{(b)} Representative fluorescence lifetime histograms of recombinant RpHLuorin2 in pH 4.87 solution (red dashed line) or pH 7.5 solution (pink dashed line). Fits with mono-exponential decay functions (pH 4.87, solid red line; pH 7.5, solid pink line) convoluted with the instrumental response function (IRF, gray dotted line). Graphs are normalized to the maximum photon counts. \textbf{(c)} Average lifetime histograms from the images of panel (a). 30 regions of interest were selected per pH buffer and the average lifetime $\tau$ was measured. \textbf{(d)} pH dependence of recombinant RpHLuorin2 in defined pH calibration buffers from the images of panel (a).}
+\end{figure}
+
+\subsection{pH measurements in the secretory pathway}
+
+In order to accurately measure intraorganellar pH of specific organelles, we targeted RpHLuorin2 intracellularly by fusing it to proteins and targeting sequences that locate to specific subcellular locations in the secretory pathway (Figure~\ref{ch3:ch3fig3}a). To interrogate the luminal pH along the entire secretory pathway, we fused RpHLuorin2 to the signal sequence of the ER-resident protein calreticulin and a C-terminal ER retention signal KDEL for ER targeting, to the luminal regions of \emph{cis}-/medial-Golgi protein alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase (MGAT2), to \emph{trans}-Golgi enzyme beta-1,4-galactosyltransferase 1 (GalT), to lysosome-associated membrane glycoprotein 1 (LAMP1) for lysosomal targeting, and finally to a GPI anchor for plasma membrane (i.e. extracellular) localization. For the Golgi enzymes (MGAT2 and GalT), we truncated each protein by removing their catalytic sites and only kept the transmembrane region and stalk regions responsible for their localization\cite{welch_tale_2019,tie_novel_2016,boncompain_synchronization_2012}.
+
+We then expressed the fusion constructs in HeLa cells, and recorded FLIM images. We used the GPI-anchored RpHLuorin2 to calibrate the probe expressed in cells using the same pH buffers as used for the calibration of purified RpHLuorin2 (Figure~\ref{fig:ch3fig2}a-c). We again observed a dependency of the fluorescence lifetime of RpHLuorin2 on pH, although the absolute fluorescence lifetime values were lower than for the recombinant RpHLuorin2, possibly due to crowding effects. This dependence on pH could again be fitted by a three-parameter Michaelis-Menten function. After successfully calibrating our system, we proceeded with pH measurements in the lumen of the organelles along of the secretory pathway (Figure~\ref{fig:ch3fig3}). With ER-RpHLuorin2, we measured an apparent average pH of 7.2, while with \emph{cis}-/medial-Golgi marker MGAT2-RpHLuorin2 we measured an apparent average pH of 6.1, and with \emph{trans}-Golgi marker GalT-RpHLuorin2 an apparent average pH of 5.9 (Figure~\ref{fig:ch3fig3}b, c). Finally, for lysosomal marker LAMP1-RpHLuorin2 we measured an apparent average pH of 4.7. These pH values are all consistent with previous literature\cite{casey_sensors_2010,johnson_position_2016}. Taken together, our data show that the RpHLuorin2 FLIM system is highly suitable for intracellular pH measurements with only a single image acquisition.
+
+\begin{figure}
+    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter3/chapter3_Figure2.pdf}
+    \caption{\textbf{Calibration of RpHLuorin2 by fluorescence lifetime imaging microscopy (FLIM) in HeLa cells expressing GPI-RpHLuorin2.} \textbf{(a)} Representative confocal micrographs of HeLa cells expressing GPI-RpHLuorin2 in defined calibration buffers. The intensity image (left column) was convoluted with the fluorescent lifetime value per pixel and pseudo-colored (right column). Scalebars, 10 $\mu$m. \textbf{(b)} Average lifetime histograms from the images of panel (a). N = 86 (pH 4.87), 108 (pH 5.31), 90 (pH 5.67), 115 (pH 6.17), 122 (pH 6.68), 113 (pH 7.03) and 120 (pH 7.5) cells from three independent experiments. \textbf{(c)} pH dependence of HeLa cells expressing GPI-RpHLuorin2 in defined pH calibration buffers from the images of panel (a).}
+    \label{fig:ch3fig2}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter3/chapter3_Figure3.pdf}
+    \caption{\textbf{Steady-state pH measurements of secretory pathway markers.} \textbf{(a)} Schematic overview of all RpHLuorin2 constructs used in this study. The signal sequence of LAMP1 is removed following co-translational ER insertion and is not shown in the diagram. MW, molecular weight. RUSH, retention using selective hooks\cite{boncompain_synchronization_2012}. SBP, streptavidin binding protein. \textbf{(b)} Representative confocal micrographs of HeLa cells expressing the mentioned RpHLuorin2 fusion constructs. The intensity image (left column) was convoluted with the fluorescent lifetime value per pixel and pseudo-colored (middle column). The intensity image was also convoluted with the calculated pH per pixel and pseudo-colored (right column). FLIM, fluorescence lifetime imaging microscopy. Scalebars, 10 $\mu$m. \textbf{(c)} Quantification of average pH values from panel (b). N = 88 (ER), 188 (MGAT2), 193 (GalT), and 134 (LAMP1) cells from 3 – 5 independent experiments.}
+    \label{fig:ch3fig3}
+\end{figure}
+
+\subsection{Dynamic measurements of pH in the secretory pathway}
+
+To evaluate whether our method would be able to measure dynamic changes in pH, we started by measuring the pH of the medial-Golgi marker MGAT2-pHLuorin2 in the presence of fungal metabolite Brefeldin A (BFA). BFA is a potent inhibitor of COPI-mediated vesicular trafficking and causes the relocation of Golgi-resident enzymes to the ER\cite{galea_high-content_2015,klausner_brefeldin_1992}. We therefore expected a substantial increase in pH when MGAT2-RpHLuorin2 expressing cells were challenged with BFA. Indeed, we measured an apparent average pH of 7.1 in the BFA-challenged cells compared to an apparent average pH of 6.4 in the vehicle control cells (Figure~\ref{fig:ch3fig4}a, b). This result means that our system is capable of measuring dynamic alterations of pH in living cells.
+
+\begin{figure}
+    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter3/chapter3_Figure4.pdf}
+    \caption{\textbf{Dynamic pH measurements along the secretory pathway.} \textbf{(a)} Representative confocal micrographs of HeLa cells expressing MGAT2-RpHLuorin2 in the absence (Ctrl, green) or presence of Brefeldin A (Brefeldin A, orange).  The intensity image (left column) was convoluted with the fluorescent lifetime value per pixel and pseudo-colored (middle column). The intensity image was also convoluted with the calculated pH per pixel and pseudo-colored (right column). FLIM, fluorescence lifetime imaging microscopy. Scalebars, 10 $\mu$m. \textbf{(b)} Quantification of average pH values from panel (a). N = 110 (DMSO) and 165 (Brefeldin A) cells from 2 – 3 independent experiments. \textbf{(c)} Representative confocal micrographs of HeLa cells expressing RUSH TNF$\alpha$-RpHLuorin2 in the absence of biotin (0 min) or 20, 40 and 60 minutes after biotin addition. The intensity image (left column) was convoluted with the fluorescent lifetime value per pixel and pseudo-colored (middle column). The intensity image was also convoluted with the calculated pH per pixel and pseudo-colored (right column). FLIM, fluorescence lifetime imaging microscopy. Scalebars, 10 $\mu$m. \textbf{(d)} Quantification of average pH values of the cell shown in panel (c). \textbf{(e)} Average pH measured of all cells expressing RUSH TNF$\alpha$-RpHLuorin2. N = 29 from 2 independent experiments.}
+    \label{fig:ch3fig4}
+\end{figure}
+
+
+Next, we employed FLIM-based measurements to monitor the changes of the pH in real-time along the secretory pathway. To this end, we chose the secreted cytokine tumor necrosis factor alpha (TNF-$\alpha$) as a model protein that is transported through the secretory pathway. Using the Retention Using Selective Hooks (RUSH) system\cite{boncompain_synchronization_2012}, we synchronized the transit of TNF-$\alpha$ along the secretory pathway. RUSH uses the expression of two separate constructs in the cell: (i) the hook construct, which is an ER-targeting sequence fused to streptavidin, and (ii) the reporter construct which is the protein of interest (i.e., TNF-$\alpha$) fused in tandem to a streptavidin binding protein (SBP) and a fluorescent protein (RpHLuorin2). When biotin is absent from the culture medium, the reporter construct is held at the ER through an interaction of streptavidin of the hook construct and the SBP. When biotin is added to the culture medium, biotin outcompetes this interaction and the reporter construct is released and transits along the secretory pathway in a synchronized fashion.
+
+In our case, we used the KDEL-motif as a targeting sequence for the ER\cite{boncompain_synchronization_2012}, and used a TNF$\alpha$-SBP-RpHLuorin2 fusion protein (RUSH TNF$\alpha$-RpHLuorin2) as the reporter construct, so that we could follow the dynamic transit of TNF$\alpha$ from the ER to the plasma membrane (Figure~\ref{fig:ch3fig4}c-e). In the absence of biotin in the cell culture medium, when all the reporter construct was trapped within the ER, we measured an apparent average pH of 7.58, which is comparable to our earlier determined pH in the ER. In the ~25 min following the addition of biotin to the cells, RUSH TNF$\alpha$-RpHLuorin2 was trafficked through the Golgi and the apparent average pH gradually decreased to around pH 6. At later time points, the pH gradually increased again as more TNF$\alpha$-RpHLuorin2 reached the plasma membrane and was released in the extracellular environment. Because of the limited number of photons, we fitted the fluorescence lifetime histograms with a single exponential decay function and report the apparent average pH per cell\cite{verboogen_fluorescence_2017}. This result demonstrates that FLIM-based pH measurements are a suitable method to determine intraorganellar pH with high temporal resolution.
+
+\clearpage
+
+\section{Discussion}
+
+In this study, we measured the pH in various subcellular compartments using FLIM of the pH-sensitive fluorescent protein RpHLuorin2. Consistent with previous literature, we observed a clear acidification of luminal pH through the secretory pathway\cite{casey_sensors_2010,paroutis_ph_2004,schapiro_determinants_2000}. The fusion of RpHLuorin2 is not restricted to the proteins we described here; this system is applicable to any other intraorganellar measurement, provided RpHLuorin2 can be fused to a luminal domain of a protein residing in the target organelle. Furthermore, additional applications include combining RpHLuorin2 with other fluorescence (lifetime) based probes to measure pH and other cellular processes simultaneously within the same cell.
+
+The key improvement of our study is the usage of FLIM as opposed to traditional ratiometric imaging. Ratiometric imaging of pHLuorin and derivatives\cite{ma_live-cell_2017,miesenbock_visualizing_1998,mahon_phluorin2:_2011} requires the sequential recording of the fluorescent protein at both 405 and 470 nm excitation wavelengths. This sequential imaging intrinsically limits the temporal resolution and consequently limits the applicability for pH determination in dynamically moving and reshaping organelles. FLIM mitigates this issue, as only a single recording with a single excitation wavelength is required. Moreover, FLIM measurements are not dependent on laser intensity\cite{wallrabe_imaging_2005,jares-erijman_fret_2003}, while ratiometric measurements can easily be affected by fluctuations in excitation laser power. FLIM measurements are thus more comparable between experiments.
+
+In contrast to another study which relies on equilibrating pH with the ionophore monensin\cite{ma_live-cell_2017}, we used GPI-anchored RpHLuorin2 to obtain calibration curves with defined pH buffers, because monensin is a known inhibitor of physiological Golgi transport, thereby likely affecting the observed fluorescence lifetime values\cite{eisenberg-lerner_golgi_2020,baumann_golgi_2018,oku_novel_2011,taniguchi_tfe3_2015,reiling_creb3arf4_2013,sbodio_golgi_2018,taniguchi_mlx_2016}.
+
+Defects in the regulation of pH are a hallmark of a wide range of disease, including disorders of glycosylation\cite{linders_sugary_2020,kornak_impaired_2008,jansen_atp6ap1_2016,rujano_mutations_2017,cannata_serio_mutations_2020,jansen_ccdc115_2016,jansen_tmem199_2016}, cancer\cite{stransky_function_2016}, neurodegenerative diseases\cite{wolfe_autophagy_2013,koh_lysosomal_2019,dehay_loss_2012,jinn_tmem175_2017}, mitochondrial disorders\cite{fernandez-mosquera_mitochondrial_2019} and lysosomal storage disorders\cite{bagh_misrouting_2017}. The tools we presented in this study offer a method to assess intraorganellar pH, both in static compartments and in transit between organelles with high temporal resolution.
+
+\subsection{Acknowledgments}
+
+We thank the following people for constructs: Hesso Farhan and Franck Perez (Str-KDEL\_ManII-SBP-EGFP; Addgene plasmid \#65252, Str-KDEL\_TNF-SBP-EGFP; Addgene plasmid \#65278), Lei Lu (piRFP670-N1-GalT; Addgene plasmid \#87325), Carsten Schultz and André Nadler (GPI-mRFP), and Esteban Dell’Angelica (LAMP1-mGFP, Addgene plasmid \#34831). We thank the Microscopy Imaging Center of the Radboud Institute for Molecular Life Sciences for use of their microscopy facilities. G.v.d.B. is funded by a Young Investigator Grant from the Human Frontier Science Program (HFSP; RGY0080/2018) and a Vidi grant from the Netherlands Organisation for Scientific Research (NWO-ALW VIDI 864.14.001). G.v.d.B has also received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (grant agreement No. 862137).
+
+\subsection{Author Contributions}
+
+P.T.A.L., M.t.B., and G.v.d.B. designed and performed the experiments and wrote the paper.
+
+\subsection{Declaration of Interests}
+
+The authors declare that they have no competing financial interests.
+
+\clearpage
+
+\section{Methods}
+
+\subsection{Cloning}
+
+The sequence of RpHLuorin2\cite{mahon_phluorin2:_2011} was synthesized by Genscript for both recombinant (codon optimized for \emph{E. coli}) and mammalian cell expression. Synthetic RpHLuorin2 codon optimized for \emph{E. coli} for recombinant protein production was inserted in pET-28a(+) (EMD Biosciences) with restriction sites NdeI and XhoI. The construct for cytosolic expression of RpHLuorin2 was generated by replacing EGFP in pEGFP-N1 (Clontech) with synthesized RpHLuorin2 using restriction sites AgeI and BsrGI. ER-targeting of RpHLuorin2 was achieved by inserting the signal sequence of calreticulin (MLLSVPLLLGLLGLAVA) and flexible GGSGGS linker before RpHLuorin2 and adding a KDEL motif for luminal ER retention after RpHLuorin2. Targeting to the MGAT2-positive compartment was achieved by inserting synthetic truncated MGAT2 (residues 1-89 of Uniprot Q10469, Genscript) in the vector for cytosolic expression of RpHLuorin2 with restriction sites EcoRI and BamHI. The starting codon of RpHLuorin2 was removed and a flexible GGSGGS linker was added between the two protein fragments. Targeting to the GalT-positive compartment was achieved by inserting truncated GalT (Addgene plasmid \#87325) in the vector for cytosolic expression of RpHLuorin2 with restriction sites SmaI and BamHI. The starting codon of RpHLuorin2 was removed and a flexible GGSGGS linker was added between the two protein fragments. Targeting to LAMP1-positive compartments was achieved by inserting the signal sequence of LAMP1 (LAMP1-mGFP\cite{falcon-perez_distribution_2005}, Addgene plasmid \#34831) N-terminal to RpHLuorin2 with restriction sites HindIII and AgeI. Then, the luminal domain of LAMP1 was placed C-terminal to RpHLuorin2 after a flexible GSGS linker with restriction sites BsrGI and NotI. GPI-RpHLuorin2 was generated by replacing mRFP from GPI-mRFP with synthetic RpHLuorin2 with restriction sites XmaI and NotI. RUSH TNF$\alpha$-RpHLuorin2 was generated by replacing EGFP from Str-KDEL\_TNF-SBP-EGFP (Addgene plasmid \#65278) with synthetic RpHLuorin2 (Genscript) with restriction sites SbfI and BsrGI. All sequences were verified by Sanger sequencing prior to transfection. All generated plasmids from this study have been deposited at Addgene.
+
+\subsection{Cell culture and transfection}
+
+HeLa cells (authenticated by ATCC through their human STR profiling cell authentication service) were maintained in high glucose DMEM with Glutamax (Gibco 31966021), supplemented with 10\% fetal calf serum (FCS, Greiner Bio-one, Kremsmünster, Austria) and antibiotic-antimycotic solution (Gibco 15240-062). Cells were regularly tested for mycoplasma contamination. HeLa cells were transfected with plasmid vectors using Fugene HD (Promega E2311), using the recommended protocol of the manufacturer. Cells were imaged 48 hours post-transfection. Only cells expressing low to moderate levels of the transfected plasmids, based on fluorescence intensity and manual localization scoring, were chosen for subsequent microscopic analyses.
+
+\subsection{pH calibration buffers}
+Buffers with defined pH for the generation of a calibration curve were prepared as described previously\cite{ma_live-cell_2017}. Calibration buffers contain 125 mM KCl, 25 mM NaCl, and 25 mM N-[2-hydroxyethyl]-piperazine-N-[2-ethanesulfonic acid] (HEPES, pH 7.5 or 7.0) or 25 mM 2-[N-morpholino] ethanesulfonic acid (MES, pH 6.5, 6.0, 5.5, 5.0 or 4.5). Each buffer solution was adjusted to the appropriate final pH using 1 M NaOH or 1 M HCl at 37°C.
+
+\subsection{Recombinant protein expression and purification}
+RpHLuorin2 in pET-28(a)+ vector was transformed in BL21(DE3) \emph{E. coli}. Cells were grown in 2$\times$ yeast extract - tryptone medium and induced with 250 $\mu$g/mL $\beta$-D-1-thiogalactopyranoside (IPTG) at an OD600 of 0.8 for 2 hrs at 37°C and 200 rpm. Cells were pelleted at 3000 $\times$ \emph{g} at 4°C for 30 mins and subsequently lysed with B-PER (Thermo Scientific) supplemented with 50 U DNAseI, 1:500 lysozyme and protease inhibitor cocktail (Roche). Lysates were then cleared by centrifugation (20,000 $\times$ \emph{g} at 4°C for 10 mins) and supernatants with recombinant protein were loaded onto nickel – nitrilotriacetic acid (Ni-NTA) bead columns. Ni-NTA beads were then washed five times with 10 mM Tris-HCl pH 7.6 and 150 mM KCl, and proteins were eluted in 10 mM Tris-HCl pH 7.6, 150 mM KCl and 200 mM imidazole. To remove the elution buffer, purified protein was dialyzed overnight against ddH2O using 2 mL Slide-A-Lyzer 10K MWCO tubes (Thermo Scientific). Protein concentration was determined using the Micro BCA Protein Assay Kit (Thermo Scientific). Fluorescence of recombinant pHLuorin2 in each pH calibration buffer was measured using Eppendorf semimicro Vis Cuvettes on an LS 55 Fluorescence spectrometer (PerkinElmer). A xenon lamp was used as the excitation source. Samples were excited at 405 and 470 nm, and the emission was recorded at 508 nm.
+
+\subsection{Confocal microscopy}
+Imaging of cells took place in Leibovitz’s L-15 medium, with the exception of the samples for the pH calibration curve and the recombinant protein measurements. GPI-RpHLuorin2 and recombinant RpHLuorin2 (10 $\mu$M) measurements were performed in the pH buffers mentioned above. For calibration with GPI-RpHLuorin2, cells were preincubated in pH buffer for 15 mins at 37°C to achieve sufficient pH equilibration. Imaging was performed on a Leica SP8 SMD system at 37°C, equipped with an HC PL APO CS2 63$\times$/1.20 WATER objective. pHLuorin2 was excited at 488 nm with a pulsed white light laser, operating at 80 MHz. Photons were collected for one minute or 30 seconds for time-lapse experiments with a HyD detector set at 502 – 530 nm and lifetime histograms of the donor fluorophore were fitted with a monoexponential decay function convoluted with the microscope instrument response function in Leica LAS X. For reconstructing the images, tiff files with $\tau$ values were generated using FLIMFit\cite{warren_rapid_2013} and 2 $\times$ 2 spatial binning, and then convoluted with the fluorescent intensities using a custom-written ImageJ macro.
+
+\subsection{Quantification and statistical analysis}
+All mean values represent the average of all cells analyzed. pH calibration curves were fitted with the three-parameter Michaelis-Menten function as described by equation~\ref{eq:ch3eq1} with the \emph{MM.3} function from the R package \emph{drc}\cite{ritz_dose-response_2015}.
+
+\begin{equation}
+    y = c + \frac{d}{1 + \frac{e}{x}}
+    \label{eq:ch3eq1}
+\end{equation}
+
+Where y is the fluorescence intensity or lifetime, \emph{x} is the pH and \emph{c}, \emph{d} and \emph{e} are fit parameters.
+
+All comparisons were first checked for similar mean and median values and acceptable (< 3x) difference in variance. Statistical analysis of three or more groups was performed using a one-way ANOVA, followed by a post-hoc Tukey’s honestly significant difference test. p < 0.05 was considered significant. *p < 0.05, **p < 0.01, ***p < 0.001, ****p ≤ 0.0001. All statistical analyses were performed using R statistical software. All numerical data were visualized using R package \emph{ggplot2}\cite{wickham_ggplot2:_2016}, with violins representing the overall distribution of the data and means ± 95\% CI overlaid. 
+
+\subsection{Data and code availability}
+
+All raw data, including R scripts and ImageJ macros, have been deposited to Zenodo.
+
+
+\clearpage
+
+\section{Supplementary Information}
+
+\begin{figure}
+    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter3/chapter3_SupplementaryFigure1.pdf}
+    \caption{\textbf{Fluorescence excitation spectra of recombinant RpHLuorin2.} \textbf{(a)} Representative fluorescence excitation spectra (emission 508 nm) of recombinant RpHLuorin2 in buffers of defined pH were collected with a fluorescent spectrometer. \textbf{(b)} Calibration curve from panel (a). The ratios of fluorescence at 405 over 470 nm were plotted as a function of pH and fitted with a three-parameter Michaels-Menten function. Data from four independent experiments.}
+    \label{fig:ch3supfig1}
+\end{figure}

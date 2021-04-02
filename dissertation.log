@@ -1,0 +1,2832 @@
+**
+(dissertation.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (Dissertate.cls
+Document Class: Dissertate 2014/03/25 v2.0 Dissertate Class
+(book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@chapter=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count172
+) (pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+ (ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count173
+\calc@Bcount=\count174
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count175
+\calc@Cskip=\skip51
+) (eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+ (infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+ (xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)) (graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+\AM@pagewidth=\dimen139
+\AM@pageheight=\dimen140
+ (ppxetex.def
+File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
+)
+\AM@pagebox=\box45
+\AM@global@opts=\toks16
+\AM@pagecnt=\count176
+\AM@toc@title=\toks17
+\c@AM@survey=\count177
+\AM@templatesizebox=\box46
+) (notoccite.sty
+Package: notoccite 2000/07/20
+) (longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count178
+\LTcapwidth=\dimen141
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count179
+\LT@rows=\count180
+\c@LT@tables=\count181
+\c@LT@chunks=\count182
+\LT@p@ftn=\toks18
+) (lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen142
+\ar@mcellbox=\box51
+\extrarowheight=\dimen143
+\NC@list=\toks19
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box52
+) (ccaption.sty
+Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
+\@contcwidth=\skip58
+\@contindw=\skip59
+\abovelegendskip=\skip60
+\belowlegendskip=\skip61
+\c@newflo@tctr=\count183
+) (geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks20
+) (ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+) (lettrine.sty
+File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
+ (minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count187
+)
+\c@DefaultLines=\count188
+\c@DefaultDepth=\count189
+\DefaultFindent=\dimen152
+\DefaultNindent=\dimen153
+\DefaultSlope=\dimen154
+\DiscardVskip=\dimen155
+\L@lbox=\box53
+\L@tbox=\box54
+\c@L@lines=\count190
+\c@L@depth=\count191
+\L@Pindent=\dimen156
+\L@Findent=\dimen157
+\L@Nindent=\dimen158
+\L@lraise=\dimen159
+\L@first=\dimen160
+\L@next=\dimen161
+\L@slope=\dimen162
+\L@height=\dimen163
+\L@novskip=\dimen164
+\L@target@ht=\dimen165
+\L@target@dp=\dimen166
+\L@target@tht=\dimen167
+\LettrineWidth=\dimen168
+\LettrineHeight=\dimen169
+\LettrineDepth=\dimen170
+\Llist@everypar=\toks21
+
+Loading lettrine.cfg
+(lettrine.cfg)) (setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read2
+) (hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count192
+\Hy@pagecounter=\count193
+ (pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+) (intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count194
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count195
+ (url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen172
+ (bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count196
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count197
+\c@Item=\count198
+\c@Hfootnote=\count199
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (hxetex.def
+File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
+ (puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+) (stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count266
+\HyField@AnnotCount=\count267
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
+ (rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+) (uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip76
+)
+(amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+ (amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen175
+))
+(ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (fontspec.sty (xparse.sty (expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+ (l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count270
+\l__pdf_internal_box=\box56
+\g__pdf_backend_object_int=\count271
+\g__pdf_backend_annotation_int=\count272
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count273
+\g__xparse_grabber_int=\count274
+\l__xparse_m_args_int=\count275
+\l__xparse_v_nesting_int=\count276
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count277
+\l__fontspec_language_int=\count278
+\l__fontspec_strnum_int=\count279
+\l__fontspec_tmp_int=\count280
+\l__fontspec_tmpa_int=\count281
+\l__fontspec_tmpb_int=\count282
+\l__fontspec_tmpc_int=\count283
+\l__fontspec_em_int=\count284
+\l__fontspec_emdef_int=\count285
+\l__fontspec_strong_int=\count286
+\l__fontspec_strongdef_int=\count287
+\l__fontspec_tmpa_dim=\dimen176
+\l__fontspec_tmpb_dim=\dimen177
+\l__fontspec_tmpc_dim=\dimen178
+ (fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (fontspec.cfg))) (xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (xkeyval
+(xkvutils
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count288
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count289
+\c@eu@i=\count290
+\c@mkern=\count291
+)
+
+Package fontspec Info: Font family 'Manuale(0)' created for font 'Manuale'
+(fontspec)             with options [Ligatures=TeX,Ligatures={Common,
+(fontspec)             TeX},Scale=1.0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"Manuale/OT:script=latn;language=dflt;+liga;ma
+pping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"Manuale/B/OT:script=latn;language=dflt;+liga;
+mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"Manuale/I/OT:script=latn;language=dflt;+liga;
+mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"Manuale/BI/OT:script=latn;language=dflt;+liga
+;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 105.
+
+Package fontspec Info: Font family 'Manuale(1)' created for font 'Manuale'
+(fontspec)             with options [RawFeature={+c2sc,+scmp}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Manuale/OT:script=latn;language=dflt;+c2sc,+scmp;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Manuale/B/OT:script=latn;language=dflt;+c2sc,+scmp;"
+
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Manuale/I/OT:script=latn;language=dflt;+c2sc,+scmp;"
+
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Manuale/BI/OT:script=latn;language=dflt;+c2sc,+scmp;
+"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Lato Regular scale = 0.9693951635983504.
+
+
+Package fontspec Info: Lato Regular scale = 0.9693951635983504.
+
+
+Package fontspec Info: Lato Bold scale = 0.957111965758579.
+
+
+Package fontspec Info: Lato Regular/I scale = 0.9693951635983504.
+
+
+Package fontspec Info: Lato Bold/I scale = 0.957111965758579.
+
+
+Package fontspec Info: Font family 'LatoRegular(0)' created for font 'Lato
+(fontspec)             Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,BoldFont={Lato
+(fontspec)             Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9693951635983504]"Lato
+(fontspec)             Regular/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.957111965758579]"Lato
+(fontspec)             Bold/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9693951635983504]"Lato
+(fontspec)             Regular/I/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.957111965758579]"Lato
+(fontspec)             Bold/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Source Code Pro scale = 1.022913527500683.
+
+
+Package fontspec Info: Could not resolve font "Source Code Pro/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Source Code Pro scale = 1.022913527500683.
+
+
+Package fontspec Info: Source Code Pro/B scale = 1.022913527500683.
+
+
+Package fontspec Info: Source Code Pro/BI scale = 1.022913527500683.
+
+
+Package fontspec Info: Font family 'SourceCodePro(0)' created for font 'Source
+(fontspec)             Code Pro' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.022913527500683]"Source Code
+(fontspec)             Pro/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.022913527500683]"Source Code
+(fontspec)             Pro/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.022913527500683]"Source Code
+(fontspec)             Pro/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+ (caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen179
+\captionmargin@=\dimen180
+\captionwidth=\dimen181
+\caption@tempdima=\dimen182
+\caption@indent=\dimen183
+\caption@parindent=\dimen184
+\caption@hangindent=\dimen185
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\let \@conttempa \relax
+ \ifdim \prevdepth >-99\p@ \vskip \abovecaptionskip \else \def \@conttempa {\vb
+ox to\topskip {}}\fi \let \@contfnote \footnote \renewcommand {\footnote }[2][]
+{} \let \@contfmark \footnotemark \renewcommand {\footnotemark }[1][]{} \let \@
+contlabel \label \renewcommand {\label }[1]{} \sbox \@tempboxa {\@contnfont #1\
+@contdelim \@conttfont #2} \let \footnote \@contfnote \let \footnotemark \@cont
+fmark \let \label \@contlabel \ifdim \wd \@tempboxa <\linewidth \centering \fi 
+\if@contcw \centering \parbox {\@contcwidth }{\fi \if@conthang \sbox \@tempboxa
+ {\@contnfont #1\@contdelim } \@contpre {\@contnfont #1\@contdelim }\@conttempa
+ {\@contcstyle \hangindent =\wd \@tempboxa \hangafter =\@ne \@conttfont #2\par 
+} \else \if@contindent \@contpre {\@contnfont #1\@contdelim }\@conttempa {\@con
+tcstyle \hangindent =\@contindw \hangafter =\@ne \@conttfont #2\par } \else \@c
+ontpre {\@contnfont #1\@contdelim }\@conttempa {\@contcstyle \@conttfont #2\par
+ } \fi \fi \@contpost \if@contcw \par } \fi \vskip \belowcaptionskip  on input 
+line 1082.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+(newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+Package newfloat Info: Document class `book' detected (Hy).
+)
+\c@caption@flags=\count292
+\c@continuedfloat=\count293
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)) (microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@count=\count294
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen186
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count295
+ (microtype-xetex.def
+File: microtype-xetex.def 2019/11/18 v2.7d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 258.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+)) (fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip77
+\f@nch@O@elh=\skip78
+\f@nch@O@erh=\skip79
+\f@nch@O@olh=\skip80
+\f@nch@O@orh=\skip81
+\f@nch@O@elf=\skip82
+\f@nch@O@erf=\skip83
+\f@nch@O@olf=\skip84
+\f@nch@O@orf=\skip85
+) (titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip86
+\aftertitleunit=\skip87
+\ttl@plus=\dimen187
+\ttl@minus=\dimen188
+\ttl@toksa=\toks29
+\titlewidth=\dimen189
+\titlewidthlast=\dimen190
+\titlewidthfirst=\dimen191
+) (titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip88
+\thanksmargin=\skip89
+\droptitle=\skip90
+)
+
+Package fontspec Info: Font family 'Lato(0)' created for font 'Lato' with
+(fontspec)             options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Lato/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Lato/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Lato/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Lato/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip91
+\cftbeforetoctitleskip=\skip92
+\cftaftertoctitleskip=\skip93
+\cftbeforepartskip=\skip94
+\cftpartnumwidth=\skip95
+\cftpartindent=\skip96
+\cftbeforechapskip=\skip97
+\cftchapindent=\skip98
+\cftchapnumwidth=\skip99
+\cftbeforesecskip=\skip100
+\cftsecindent=\skip101
+\cftsecnumwidth=\skip102
+\cftbeforesubsecskip=\skip103
+\cftsubsecindent=\skip104
+\cftsubsecnumwidth=\skip105
+\cftbeforesubsubsecskip=\skip106
+\cftsubsubsecindent=\skip107
+\cftsubsubsecnumwidth=\skip108
+\cftbeforeparaskip=\skip109
+\cftparaindent=\skip110
+\cftparanumwidth=\skip111
+\cftbeforesubparaskip=\skip112
+\cftsubparaindent=\skip113
+\cftsubparanumwidth=\skip114
+\cftbeforeloftitleskip=\skip115
+\cftafterloftitleskip=\skip116
+\cftbeforefigskip=\skip117
+\cftfigindent=\skip118
+\cftfignumwidth=\skip119
+\c@lofdepth=\count296
+\c@lotdepth=\count297
+\cftbeforelottitleskip=\skip120
+\cftafterlottitleskip=\skip121
+\cftbeforetabskip=\skip122
+\cfttabindent=\skip123
+\cfttabnumwidth=\skip124
+
+
+Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
+ out. on input line 1156.
+
+) (appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count298
+\c@@ppsavesec=\count299
+\c@@ppsaveapp=\count300
+) (natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip125
+\bibsep=\skip126
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count301
+) (quotchap.sty
+Package: quotchap 2019/07/09 v1.2 Decorative Chapter Headings with Quotes
+\@quotebox=\box58
+)
+\mybibindent=\skip127
+Package hyperref Info: Option `colorlinks' set `true' on input line 271.
+ (thumbs.sty
+Package: thumbs 2014/03/09 v1.0q Thumb marks and overview page(s) (HMM)
+ (picture.sty
+Package: picture 2019/12/09 v1.5 Dimens for picture macros (HO)
+Package picture Info: Calculation method: calc.
+)
+(alphalph.sty
+Package: alphalph 2019/12/09 v2.6 Convert numbers to letters (HO)
+) (pageslts.sty
+Package: pageslts 2015/12/21 v1.2f Refers to special pages' numbers/names (HMM)
+
+ (everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+) (undolabl.sty
+Package: undolabl 2015/03/29 v1.0l Overriding labels (HMM)
+)
+Package pageslts Info: Option pagecontinue enabled
+(pageslts)             (maybe by default):
+(pageslts)             The pageslts package will continue the page numbering,
+(pageslts)             when the same page numbering scheme is used twice.
+(pageslts)             If you do not want this, call pageslts with option
+(pageslts)             pagecontinue=false (or use \setcounter{page}=1).
+(pageslts)              on input line 179.
+Package pageslts Info: Option romanMult enabled
+(pageslts)             (maybe by default):
+(pageslts)             The pageslts package will extend the page numbering
+(pageslts)             of the roman scheme below i with
+(pageslts)             0, -i, -ii, -iii, -iv,...
+(pageslts)             If you do not want this, call pageslts with option
+(pageslts)             romanMult=false.
+(pageslts)              on input line 278.
+Package pageslts Info: Option RomanMulti enabled
+(pageslts)             (maybe by default):
+(pageslts)             The pageslts package will extend the page numbering
+(pageslts)             of the Roman scheme below I with
+(pageslts)             0, -I, -II, -III, -IV,...
+(pageslts)             If you do not want this, call pageslts with option
+(pageslts)             RomanMulti=false.
+(pageslts)              on input line 300.
+Package pageslts Info: Option fnsymbolmult enabled
+(pageslts)             (maybe by default):
+(pageslts)             The pageslts package will extend the page numbering
+(pageslts)             of the footnotesymbol scheme using the alphalph
+(pageslts)             package.
+(pageslts)             If you do not want this, call pageslts with option
+(pageslts)             fnsymbolmult=false.
+(pageslts)              on input line 322.
+\c@CurrentPage=\count302
+\c@pagesLTS.pagenr=\count303
+\c@pagesLTS.current.local.0=\count304
+\c@pagesLTS.pnc.0=\count305
+) (pagecolor.sty
+Package: pagecolor 2017/05/29 v1.0i Provides thepagecolor (HMM)
+
+(ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+Package pagecolor Info: \nopagecolor is undefined on input line 101.
+
+
+Package pagecolor Warning: Option nopagecolor=none requested but \nopagecolor u
+nknown:
+(pagecolor)                By option nopagecolor the "colour" to be used with\n
+opagecolor
+(pagecolor)                is set. The current value is "none" (maybe by defaul
+t),
+(pagecolor)                but command \nopagecolor is undefined.
+(pagecolor)                Therefore the colour cannot be "none".
+(pagecolor)                Please change the option accordingly!
+(pagecolor)                As first aid nopagecolor is now set to white
+(pagecolor)                 on input line 116.
+
+
+Package pagecolor Warning: Option pagecolor=none (maybe by default) used,
+(pagecolor)                but \nopagecolor is unknown.
+(pagecolor)                Please use anotheroption value;
+(pagecolor)                white 
+(pagecolor)                will be used now
+(pagecolor)                 on input line 127.
+
+)
+Package thumbs Info: Option ignorehoffset NOT =false:
+(thumbs)             hoffset will be ignored.
+(thumbs)             To make thumbs regard hoffset use option
+(thumbs)             ignorehoffset=false on input line 170.
+Package thumbs Info: Option ignorevoffset NOT =false:
+(thumbs)             voffset will be ignored.
+(thumbs)             To make thumbs regard voffset use option
+(thumbs)             ignorevoffset=false on input line 185.
+\th@mbwidthx=\dimen192
+\th@mbheighty=\dimen193
+\th@mbposx=\dimen194
+\th@mbposy=\dimen195
+\th@mbposyA=\dimen196
+\th@mbposyB=\dimen197
+\th@mbposytop=\dimen198
+\th@mbposybottom=\dimen199
+\th@mbwidthxtoc=\dimen256
+\th@mbwidthtmp=\dimen257
+\th@mbsposytocy=\dimen258
+\th@mbsposytocyy=\dimen259
+\th@mbHitO=\dimen260
+\th@mbHitE=\dimen261
+\th@mbHimO=\dimen262
+\th@mbHimE=\dimen263
+\th@mbsdistance=\dimen264
+\ThumbsBox=\box59
+)) (dissertation.aux (chapters/chapter1.aux) (chapters/chapter2.aux)
+(chapters/chapter3.aux) (chapters/chapter4.aux) (chapters/chapter5.aux)
+(chapters/chapter6.aux) (chapters/chapter7.aux) (chapters/chapter8.aux)
+\c@pagesLTS.arabic.1.local.cnt=\count306
+)
+\openout1 = `dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+4.
+
+(ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+\AtBeginShipoutBox=\box60
+ (pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 369.88583pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 554.82875pt, 56.9055pt)
+* \paperwidth=483.69684pt
+* \paperheight=682.86613pt
+* \textwidth=369.88583pt
+* \textheight=554.82875pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 14.
+Package hyperref Info: Link coloring ON on input line 14.
+ (nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+ (dissertation.out) (dissertation.out)
+\@outlinefile=\write3
+\openout3 = `dissertation.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 14.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Manuale' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package pageslts Info: etoolbox package loaded before atveryend package
+(pageslts)             With atveryend version 1.8 of 2011/06/30 this caused a p
+roblem,
+(pageslts)             which is probably solved in the new version used here.
+(pageslts)             To play it safe, you could load the atveryend package
+(pageslts)             before the etoolbox package.
+(pageslts)              on input line 14.
+
+ABD: EveryShipout initializing macros
+
+Package pageslts Warning: Package pdfpages detected.
+(pageslts)                Using hyperref with pdfpages can cause problems. See
+(pageslts)                https://www.ctan.org/pkg/pax
+(pageslts)                for the Pdf Annotations eXtractor, pax.
+
+
+Package thumbs Warning: Thumbs not high enough:
+(thumbs)                Option height has value "auto". For 8 thumbs per page
+(thumbs)                this results in a thumb height of 42.13062pt.
+(thumbs)                This is lower than the minimal thumb height, 48pt,
+(thumbs)                therefore another thumbs column will be opened.
+(thumbs)                If you do not want this, choose a smaller value
+(thumbs)                for option "minheight".
+
+\@instreamthumb=\read3
+
+Package thumbs Info: ************** THUMB dimensions **************.
+Package thumbs Info: The height of the thumb marks is 48.0pt.
+Package thumbs Info: The width of the thumb marks is 28.45274pt.
+Package thumbs Info: The top thumb margin is 41.06439pt.
+Package thumbs Info: The bottom thumb margin is 65.75385pt.
+Package thumbs Info: **********************************************.
+
+\c@pagesLTS.pnc.arabic=\count308
+\c@pagesLTS.double.arabic=\count309
+\c@pagesLTS.current.local.arabic=\count310
+(frontmatter/personalize)
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 20.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 20.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+(se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) (mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+
+ (umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+
+ (umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 20.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 20.
+
+
+LaTeX Font Warning: Font shape `TU/Manuale(0)/m/sc' undefined
+(Font)              using `TU/Manuale(0)/m/n' instead on input line 20.
+
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 20.
+
+LaTeX Font Warning: Font shape `TU/Manuale(0)/b/sc' undefined
+(Font)              using `TU/Manuale(0)/b/n' instead on input line 20.
+
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/sc' will be
+(Font)              scaled to size 9.0pt on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 20.
+[2]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 20.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 20.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+[4]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 20.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 20
+.
+ (t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+) (mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+) (dissertation.toc [5
+
+])
+\tf@toc=\write4
+\openout4 = `dissertation.toc'.
+
+ [6]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+ [7
+
+
+]
+\openout2 = `chapters/chapter1.aux'.
+
+
+(chapters/chapter1.tex
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf, page 1>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf, page 1>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf, page 1>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf, page 1>
+File: figures/inserts/ch1.pdf Graphic file (type pdf)
+<use figures/inserts/ch1.pdf, page 1>
+ [8
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/sl' in size <8> not available
+(Font)              Font shape `TU/Manuale(0)/m/it' tried instead on input line
+ 14.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 14.
+
+Chapter 1.
+[9
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Lato' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 23.
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 25.
+ [10
+
+]
+File: chapters/chapter1/Introduction_Figure1.pdf Graphic file (type pdf)
+<use chapters/chapter1/Introduction_Figure1.pdf>
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 37.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/b/n' will be
+(Font)              scaled to size 9.57108pt on input line 37.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LatoRegular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/b/n' will be
+(Font)              scaled to size 7.65686pt on input line 37.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 9.69391pt on input line 37.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 7.75513pt on input line 37.
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/it' will be
+(Font)              scaled to size 7.75513pt on input line 37.
+ [11] [12]
+File: chapters/chapter1/Introduction_Figure2.pdf Graphic file (type pdf)
+<use chapters/chapter1/Introduction_Figure2.pdf>
+
+Overfull \hbox (14.53003pt too wide) in paragraph at lines 58--59
+\TU/Manuale(0)/m/sc/9 fore, the proper localization of all glycosylation machin
+ery and other required factors is paramount. 
+ []
+
+File: chapters/chapter1/Introduction_Figure3.pdf Graphic file (type pdf)
+<use chapters/chapter1/Introduction_Figure3.pdf>
+[13] [14]
+File: chapters/chapter1/Introduction_Figure4.pdf Graphic file (type pdf)
+<use chapters/chapter1/Introduction_Figure4.pdf>
+ [15] [16]) [17
+
+]
+\openout2 = `chapters/chapter2.aux'.
+
+ (chapters/chapter2.tex
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf, page 1>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf, page 1>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf, page 1>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf, page 1>
+File: figures/inserts/ch2.pdf Graphic file (type pdf)
+<use figures/inserts/ch2.pdf, page 1>
+ [18
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 15.
+
+Chapter 2.
+[19
+
+]
+Overfull \hbox (5.60619pt too wide) in paragraph at lines 24--25
+\TU/Manuale(0)/m/sc/9 Glycosylation is an important post-translational modifica
+tion for both intracellular and secreted
+ []
+
+[20
+
+]
+Overfull \hbox (15.64601pt too wide) in paragraph at lines 32--33
+\TU/Manuale(0)/m/sc/9 and the Golgi apparatus itself differs between cell types
+, contributing to glycoprotein diversity$[]$.
+ []
+
+[21
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+
+
+Package natbib Warning: Citation `wong_specificity_2014' on page 22 undefined o
+n input line 36.
+
+
+Package natbib Warning: Citation `kelly' on page 22 undefined on input line 36.
+
+
+File: chapters/chapter2/Linders_Figure1.pdf Graphic file (type pdf)
+<use chapters/chapter2/Linders_Figure1.pdf>
+
+Package natbib Warning: Citation `scherpenzeel_high-resolution_2015' on page 22
+ undefined on input line 44.
+
+[22] [23]
+File: chapters/chapter2/Linders_Figure2.pdf Graphic file (type pdf)
+<use chapters/chapter2/Linders_Figure2.pdf>
+LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 5.81635pt on input line 56.
+ [24] [25]
+Overfull \hbox (3.52606pt too wide) in paragraph at lines 62--63
+\TU/Manuale(0)/m/sc/9 While its precise mechanistic role in V-ATPase assembly h
+as not been determined, loss of ATP6AP2
+ []
+
+
+Overfull \hbox (0.2452pt too wide) in paragraph at lines 62--63
+\TU/Manuale(0)/m/sc/9 tein glycosylation abnormalities with hypogalactosylation
+ and hyposialylation and autophagic
+ []
+
+
+Overfull \hbox (0.87202pt too wide) in paragraph at lines 64--65
+\TU/Manuale(0)/m/sc/9 and one missense mutation in \TU/Manuale(0)/m/it/9 VMA21 
+\TU/Manuale(0)/m/sc/9 were discovered. Mechanistically, the symptoms of VMA21-
+ []
+
+
+Overfull \hbox (17.9162pt too wide) in paragraph at lines 66--67
+\TU/Manuale(0)/m/sc/9 been found in novel CDGs$[]$. CCDC115 and TMEM199 are hyp
+othesized to assemble the membrane-
+ []
+
+[26] [27]
+File: chapters/chapter2/Linders_Figure3.pdf Graphic file (type pdf)
+<use chapters/chapter2/Linders_Figure3.pdf>
+ [28] [29] [30]
+File: chapters/chapter2/Linders_Figure4.pdf Graphic file (type pdf)
+<use chapters/chapter2/Linders_Figure4.pdf>
+
+Overfull \hbox (4.40804pt too wide) in paragraph at lines 96--97
+\TU/Manuale(0)/m/sc/9 tion of glycosylation enzymes MAN2A1, MGAT1, B4GALT1, and
+ ST6GAL1 to COG complex-dependent
+ []
+
+
+Overfull \hbox (11.87141pt too wide) in paragraph at lines 98--99
+[]\TU/Manuale(0)/m/sc/9 Genetic variants causing CDGs have been identified for 
+all COG subunits, except for COG3$[]$.
+ []
+
+
+Overfull \hbox (2.68486pt too wide) in paragraph at lines 100--101
+\TU/Manuale(0)/m/sc/9 codon in exon 7, in \TU/Manuale(0)/m/it/9 COG1 \TU/Manual
+e(0)/m/sc/9 causes skeletal defects and mental retardation, together with hypog
+alac-
+ []
+
+[31] [32]
+Overfull \hbox (1.40749pt too wide) in paragraph at lines 106--107
+\TU/Manuale(0)/m/sc/9 brane fusion. SNARE proteins are classified by the centra
+l residue in their SNARE motif: R-SNAREs
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+ [34]
+[35]
+
+Package natbib Warning: Citation `scherpenzeel_high-resolution_2015' on page 36
+ undefined on input line 120.
+
+
+Overfull \hbox (0.29802pt too wide) in paragraph at lines 120--121
+[]\TU/Manuale(0)/m/sc/9 Interestingly, except for Stx5-CDG, all described CDGs 
+in trafficking proteins primarily demon-
+ []
+
+[36
+
+]
+Overfull \hbox (0.4822pt too wide) in paragraph at lines 128--129
+\TU/Manuale(0)/m/sc/9 RGY0080/2018) and a Vidi grant from the Netherlands Organ
+isation for Scientific Research (NWO-
+ []
+
+[37] [38
+
+]
+Overfull \hbox (3.78163pt too wide) in paragraph at lines 146--146
+ []|\TU/Manuale(0)/m/n/8 CDG$[]$| 
+ []
+
+
+Overfull \hbox (7.35687pt too wide) in paragraph at lines 146--146
+ \TU/Manuale(0)/m/n/8 Glycosylation$[]$| 
+ []
+
+
+Overfull \hbox (1.35764pt too wide) in paragraph at lines 146--146
+ []|\TU/Manuale(0)/m/n/8 Man| 
+ []
+
+
+Overfull \hbox (10.21364pt too wide) in paragraph at lines 146--146
+ []|\TU/Manuale(0)/m/n/8 GlcNAc| 
+ []
+
+
+Overfull \hbox (7.35687pt too wide) in paragraph at lines 146--146
+ \TU/Manuale(0)/m/n/8 Glycosylation$[]$| 
+ []
+
+
+Overfull \hbox (3.78163pt too wide) in paragraph at lines 149--149
+ []|\TU/Manuale(0)/m/n/8 CDG$[]$| 
+ []
+
+
+Overfull \hbox (7.35687pt too wide) in paragraph at lines 149--149
+ \TU/Manuale(0)/m/n/8 Glycosylation$[]$| 
+ []
+
+
+Overfull \hbox (1.35764pt too wide) in paragraph at lines 149--149
+ []|\TU/Manuale(0)/m/n/8 Man| 
+ []
+
+
+Overfull \hbox (10.21364pt too wide) in paragraph at lines 149--149
+ []|\TU/Manuale(0)/m/n/8 GlcNAc| 
+ []
+
+
+Overfull \hbox (7.35687pt too wide) in paragraph at lines 149--149
+ \TU/Manuale(0)/m/n/8 Glycosylation$[]$| 
+ []
+
+[39
+
+] [40] [41] [42]) [43
+
+
+
+]
+\openout2 = `chapters/chapter3.aux'.
+
+ (chapters/chapter3.tex
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf, page 1>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf, page 1>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf, page 1>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf, page 1>
+File: figures/inserts/ch3.pdf Graphic file (type pdf)
+<use figures/inserts/ch3.pdf, page 1>
+ [44
+
+]
+Chapter 3.
+[45
+
+] [46
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 30.
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [47
+
+]
+Overfull \hbox (0.70752pt too wide) in paragraph at lines 44--45
+\TU/Manuale(0)/m/sc/10 We first measured the fluorescence excitation spectra of
+ recombinant RpHLuorin2 (Fig-
+ []
+
+File: chapters/chapter3/chapter3_Figure1.pdf Graphic file (type pdf)
+<use chapters/chapter3/chapter3_Figure1.pdf>
+
+LaTeX Warning: Float too large for page by 163.26993pt on input line 52.
+
+
+LaTeX Warning: Reference `ch3:ch3fig3' on page 48 undefined on input line 56.
+
+
+Overfull \hbox (3.8975pt too wide) in paragraph at lines 56--57
+\TU/Manuale(0)/m/sc/10 Golgi enzyme beta-1,4-galactosyltransferase 1 (GalT), to
+ lysosome-associated membrane
+ []
+
+
+Underfull \vbox (badness 5105) has occurred while \output is active []
+
+ [48]
+[49]
+File: chapters/chapter3/chapter3_Figure2.pdf Graphic file (type pdf)
+<use chapters/chapter3/chapter3_Figure2.pdf>
+File: chapters/chapter3/chapter3_Figure3.pdf Graphic file (type pdf)
+<use chapters/chapter3/chapter3_Figure3.pdf>
+
+Overfull \hbox (0.76881pt too wide) in paragraph at lines 74--75
+\TU/Manuale(0)/m/sc/10 vesicular trafficking and causes the relocation of Golgi
+-resident enzymes to the ER$[]$.
+ []
+
+[50] [51] [52]
+File: chapters/chapter3/chapter3_Figure4.pdf Graphic file (type pdf)
+<use chapters/chapter3/chapter3_Figure4.pdf>
+ [53] [54]
+Overfull \hbox (12.06354pt too wide) in paragraph at lines 97--98
+\TU/Manuale(0)/m/sc/10 disorders of glycosylation$[]$, cancer$[]$, neurodegener
+ative diseases$[]$,
+ []
+
+
+Overfull \hbox (2.52594pt too wide) in paragraph at lines 97--98
+\TU/Manuale(0)/m/sc/10 mitochondrial disorders$[]$ and lysosomal storage disord
+ers$[]$. The tools we presented
+ []
+
+
+Overfull \hbox (2.99953pt too wide) in paragraph at lines 101--102
+\TU/Manuale(0)/m/sc/10 KDEL_ManII-SBP-EGFP; Addgene plasmid #65252, Str-KDEL_TN
+F-SBP-EGFP; Addgene plas-
+ []
+
+[55
+
+] [56]
+Overfull \hbox (7.5895pt too wide) in paragraph at lines 117--118
+\TU/Manuale(0)/m/sc/10 compartments was achieved by inserting the signal sequen
+ce of LAMP1 (LAMP1-mGFP$[]$,
+ []
+
+[57
+
+]
+Overfull \hbox (41.83081pt too wide) in paragraph at lines 127--128
+\TU/Manuale(0)/m/sc/10 in 2$\OMS/cmsy/m/n/10 ^^B$ \TU/Manuale(0)/m/sc/10 yeast 
+extract - tryptone medium and induced with 250 $\OML/cmm/m/it/10 ^^V$\TU/Manual
+e(0)/m/sc/10 g/mL $\OML/cmm/m/it/10 ^^L$\TU/Manuale(0)/m/sc/10 -D-1-thiogalacto
+pyranoside
+ []
+
+
+Overfull \hbox (11.38017pt too wide) in paragraph at lines 127--128
+\TU/Manuale(0)/m/sc/10 combinant protein were loaded onto nickel – nitrilotriac
+etic acid (Ni-NTA) bead columns.
+ []
+
+
+Overfull \hbox (5.74684pt too wide) in paragraph at lines 127--128
+\TU/Manuale(0)/m/sc/10 Eppendorf semimicro Vis Cuvettes on an LS 55 Fluorescenc
+e spectrometer (PerkinElmer).
+ []
+
+[58]
+Overfull \hbox (5.20749pt too wide) in paragraph at lines 133--134
+\TU/Manuale(0)/m/sc/10 fitted with the three-parameter Michaelis-Menten functio
+n as described by equation [][]3.1[][]
+ []
+
+[59]
+File: chapters/chapter3/chapter3_SupplementaryFigure1.pdf Graphic file (type pd
+f)
+<use chapters/chapter3/chapter3_SupplementaryFigure1.pdf>
+) [60
+
+] [61
+
+
+]
+\openout2 = `chapters/chapter4.aux'.
+
+ (chapters/chapter4.tex
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf, page 1>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf, page 1>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf, page 1>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf, page 1>
+File: figures/inserts/ch4.pdf Graphic file (type pdf)
+<use figures/inserts/ch4.pdf, page 1>
+ [62
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+Chapter 4.
+[63
+
+]
+Overfull \hbox (6.57155pt too wide) in paragraph at lines 23--24
+\TU/Manuale(0)/m/sc/10 malian V-ATPase assembly are still unclear, but mutation
+s in TMEM199, the mammalian
+ []
+
+[64
+
+]
+Overfull \hbox (3.25262pt too wide) in paragraph at lines 29--30
+\TU/Manuale(0)/m/sc/10 Golgi to 6.0 at the \TU/Manuale(0)/m/it/10 trans\TU/Manu
+ale(0)/m/sc/10 -Golgi$[]$. Not only is physiological pH required for proper
+ []
+
+
+Overfull \hbox (5.60951pt too wide) in paragraph at lines 33--34
+\TU/Manuale(0)/m/sc/10 genetic variants in these proteins are associated with d
+isorders of glycosylation$[]$.
+ []
+
+
+Overfull \hbox (3.73952pt too wide) in paragraph at lines 35--36
+\TU/Manuale(0)/m/sc/10 malian V-ATPase, we performed fractionation studies and 
+examined whether TMEM199
+ []
+
+
+Overfull \hbox (0.36884pt too wide) in paragraph at lines 41--43
+\TU/Manuale(0)/m/sc/10 cells, we observed an approximate 60% decrease in SNA-I 
+labeling for both TMEM199KO
+ []
+
+[65
+
+]
+File: chapters/chapter4/chapter4_Figure1.pdf Graphic file (type pdf)
+<use chapters/chapter4/chapter4_Figure1.pdf>
+
+Overfull \hbox (0.88889pt too wide) in paragraph at lines 52--53
+\TU/Manuale(0)/m/sc/10 cence labeling of mannosyl ($\OML/cmm/m/it/10 ^^K$\TU/Ma
+nuale(0)/m/sc/10 -1,3)-glycoprotein $\OML/cmm/m/it/10 ^^L$\TU/Manuale(0)/m/sc/1
+0 -1,2-N-acetylglucosaminyltransferase
+ []
+
+
+Overfull \hbox (12.96019pt too wide) in paragraph at lines 52--53
+\TU/Manuale(0)/m/sc/10 TMEM199KO B1 showed a slightly increased colocalization 
+of MGAT1 with \TU/Manuale(0)/m/it/10 cis\TU/Manuale(0)/m/sc/10 -Golgi marker
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+File: chapters/chapter4/chapter4_Figure2.pdf Graphic file (type pdf)
+<use chapters/chapter4/chapter4_Figure2.pdf>
+
+
+LaTeX Warning: Float too large for page by 45.34486pt on input line 58.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+[68]
+File: chapters/chapter4/chapter4_Figure3.pdf Graphic file (type pdf)
+<use chapters/chapter4/chapter4_Figure3.pdf>
+ [69] [70]
+File: chapters/chapter4/chapter4_Figure4.pdf Graphic file (type pdf)
+<use chapters/chapter4/chapter4_Figure4.pdf>
+ [71]
+File: chapters/chapter4/chapter4_Figure5.pdf Graphic file (type pdf)
+<use chapters/chapter4/chapter4_Figure5.pdf>
+
+Overfull \hbox (0.79485pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 brane protein TMEM199$[]$, we investigated whether CCDC1
+15 would be associated with
+ []
+
+[72] [73]
+Overfull \hbox (9.64954pt too wide) in paragraph at lines 102--103
+[]\TU/Manuale(0)/m/sc/10 In some of our experiments, we observed opposite pheno
+types for the two TMEM199KO
+ []
+
+
+Overfull \hbox (0.43018pt too wide) in paragraph at lines 102--103
+\TU/Manuale(0)/m/sc/10 cause the different luminal pH values and subcellular lo
+calization of the glycosyltrans-
+ []
+
+
+Overfull \hbox (10.83951pt too wide) in paragraph at lines 106--107
+\TU/Manuale(0)/m/sc/10 partments in HeLa cells lacking TMEM199, suggesting that
+ there is more V-ATPase present
+ []
+
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [74
+
+]
+Overfull \hbox (9.13083pt too wide) in paragraph at lines 112--113
+\TU/Manuale(0)/m/sc/10 We thank Feng Zhang for providing the eSpCas9(1.1) const
+ruct (Addgene plasmid #71814).
+ []
+
+[75]
+Overfull \hbox (3.5882pt too wide) in paragraph at lines 128--129
+\TU/Manuale(0)/m/sc/10 Bio-one, Kremsmünster, Austria) and antibiotic-antimycot
+ic solution (Gibco 15240-062).
+ []
+
+
+Overfull \hbox (16.0809pt too wide) in paragraph at lines 132--133
+\TU/Manuale(0)/m/sc/10 clonal anti-TMEM199 (Novus Biological, NBP1-88467, 1:250
+), rat monoclonal anti-$\OML/cmm/m/it/10 ^^K$\TU/Manuale(0)/m/sc/10 -Tubulin
+ []
+
+
+Overfull \hbox (10.83087pt too wide) in paragraph at lines 132--133
+\TU/Manuale(0)/m/sc/10 cam, ab180578, 1:100), mouse monoclonal anti-GALNT2 (150
+1421, Biolegend 682302, 1:100),
+ []
+
+[76
+
+]
+Overfull \hbox (0.64886pt too wide) in paragraph at lines 139--140
+\TU/Manuale(0)/m/sc/10 (ThermoScientific, S32357) and finally resuspended in FA
+CS buffer (phosphate buffered
+ []
+
+
+Overfull \hbox (30.32883pt too wide) in paragraph at lines 139--140
+\TU/Manuale(0)/m/sc/10 saline + 0.5% FBS + 0.01% NaN$[]$), supplemented with 30
+0 ng/mL 4′,6-diamidino-2-phenylindole
+ []
+
+Missing character: There is no τ in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+
+Overfull \hbox (4.15417pt too wide) in paragraph at lines 151--152
+\TU/Manuale(0)/m/sc/10 Immunofluorescence experiments for glycosyltransferase l
+ocalization were performed
+ []
+
+
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [77]
+Overfull \hbox (1.6615pt too wide) in paragraph at lines 155--156
+\TU/Manuale(0)/m/sc/10 tion buffer (250 mM sucrose, 10 mM N-[2-hydroxyethyl]-pi
+perazine-N-[2-ethanesulfonic
+ []
+
+[78] [79
+
+]
+File: chapters/chapter4/chapter4_SupplementaryFigure1.pdf Graphic file (type pd
+f)
+<use chapters/chapter4/chapter4_SupplementaryFigure1.pdf>
+ [80]
+File: chapters/chapter4/chapter4_SupplementaryFigure2.pdf Graphic file (type pd
+f)
+<use chapters/chapter4/chapter4_SupplementaryFigure2.pdf>
+
+
+LaTeX Warning: Float too large for page by 13.70825pt on input line 183.
+
+[81]
+File: chapters/chapter4/chapter4_SupplementaryFigure3.pdf Graphic file (type pd
+f)
+<use chapters/chapter4/chapter4_SupplementaryFigure3.pdf>
+
+
+LaTeX Warning: Float too large for page by 42.38547pt on input line 191.
+
+[82]
+File: chapters/chapter4/chapter4_SupplementaryFigure4.pdf Graphic file (type pd
+f)
+<use chapters/chapter4/chapter4_SupplementaryFigure4.pdf>
+
+
+LaTeX Warning: Float too large for page by 126.60849pt on input line 199.
+
+[83]
+File: chapters/chapter4/chapter4_SupplementaryFigure5.pdf Graphic file (type pd
+f)
+<use chapters/chapter4/chapter4_SupplementaryFigure5.pdf>
+
+
+LaTeX Warning: Float too large for page by 161.94695pt on input line 207.
+
+) [84] [85
+
+
+
+
+
+
+
+]
+\openout2 = `chapters/chapter5.aux'.
+
+ (chapters/chapter5.tex
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf, page 1>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf, page 1>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf, page 1>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf, page 1>
+File: figures/inserts/ch5.pdf Graphic file (type pdf)
+<use figures/inserts/ch5.pdf, page 1>
+ [86
+
+]
+Chapter 5.
+[87
+
+]
+Overfull \hbox (1.28598pt too wide) in paragraph at lines 22--23
+\TU/Manuale(0)/m/sc/10 membrane tethering complexes COG, p115, and GM130. Despi
+te these similarities, yeast
+ []
+
+[88
+
+]
+Overfull \hbox (1.75749pt too wide) in paragraph at lines 28--29
+\TU/Manuale(0)/m/sc/10 transporters to the cell membrane and lytic proteins to 
+endo-lysosomal compartments.
+ []
+
+
+Overfull \hbox (1.95349pt too wide) in paragraph at lines 34--35
+[]\TU/Manuale(0)/m/sc/10 A final difference in ER-Golgi trafficking is the invo
+lvement of microtubules in mam-
+ []
+
+File: chapters/chapter5/Linders_Figure1.pdf Graphic file (type pdf)
+<use chapters/chapter5/Linders_Figure1.pdf>
+
+Overfull \hbox (1.68929pt too wide) in paragraph at lines 46--47
+\TU/Manuale(0)/m/sc/10 lipid modifications$[]$. SNAREs in the donor membrane ar
+e called v-SNAREs (vesicular-
+ []
+
+
+Overfull \hbox (38.55818pt too wide) in paragraph at lines 46--47
+\TU/Manuale(0)/m/sc/10 ter membrane fusion, the SNARE complex is disassembled b
+y the AAA ATPase N-ethylmaleimide-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89
+
+]
+Overfull \hbox (7.52286pt too wide) in paragraph at lines 48--49
+\TU/Manuale(0)/m/sc/10 required for intra-Golgi transport, as in the widely-acc
+epted cisternal maturation model,
+ []
+
+[90]
+File: chapters/chapter5/Linders_Figure2.pdf Graphic file (type pdf)
+<use chapters/chapter5/Linders_Figure2.pdf>
+
+Overfull \hbox (20.58797pt too wide) in paragraph at lines 56--57
+\TU/Manuale(0)/m/sc/10 expressed cellulase$[]$. Most importantly, Stx5/Sed5p is
+ an essential protein, and Stx5/Sed5p
+ []
+
+
+Overfull \hbox (5.99951pt too wide) in paragraph at lines 58--59
+\TU/Manuale(0)/m/sc/10 described SNARE-mediated trafficking routes, where R-SNA
+REs generally act as v-SNAREs,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+[92]
+Overfull \hbox (7.42218pt too wide) in paragraph at lines 60--61
+\TU/Manuale(0)/m/sc/10 stack with Bet1L more present at the \TU/Manuale(0)/m/it
+/10 trans\TU/Manuale(0)/m/sc/10 -Golgi and Bet1 more present at the \TU/Manuale
+(0)/m/it/10 cis\TU/Manuale(0)/m/sc/10 -Golgi$[]$.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+[94]
+File: chapters/chapter5/Linders_Figure3.pdf Graphic file (type pdf)
+<use chapters/chapter5/Linders_Figure3.pdf>
+
+Overfull \hbox (10.32217pt too wide) in paragraph at lines 76--77
+\TU/Manuale(0)/m/sc/10 mammalian Stx5 lacks this ER retrieval motif and can be 
+found more at the Golgi$[]$.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+File: chapters/chapter5/Linders_Figure4.pdf Graphic file (type pdf)
+<use chapters/chapter5/Linders_Figure4.pdf>
+
+Overfull \hbox (6.22218pt too wide) in paragraph at lines 90--91
+\TU/Manuale(0)/m/sc/10 abling SNARE complex formation with Bet1 and reassembly 
+of the Golgi fragments$[]$.
+ []
+
+
+Overfull \hbox (17.17418pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 ER-Golgi transport and trafficking within the Golgi stac
+k are regulated by the Sec1/Munc18-
+ []
+
+
+Overfull \hbox (19.81549pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 teins regulate the assembly and activity of SNARE comple
+xes in membrane fusion events$[]$,
+ []
+
+
+Overfull \hbox (61.79884pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 in the assembly of pre-Golgi intermediates through inter
+actions with Stx17 and Stx18$[]$.
+ []
+
+
+Overfull \hbox (9.62598pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 In yeast, Sly1p is implicated in antero- and retrograde 
+ER-Golgi trafficking$[]$. Scfd1/Sly1p
+ []
+
+
+Overfull \hbox (3.42064pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 the Habc-domain (Figure [][]5.3[][])$[]$. This N-termina
+l region is also present in mam-
+ []
+
+
+Overfull \hbox (2.11285pt too wide) in paragraph at lines 94--95
+\TU/Manuale(0)/m/sc/10 malian Stx17 and Stx18 and in yeast Ufe1p (Stx18 ortholo
+g), which also bind Scfd1/Sly1p.
+ []
+
+[97] [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Overfull \hbox (6.73083pt too wide) in paragraph at lines 102--103
+\TU/Manuale(0)/m/sc/10 and these interactions are required for the assembly of 
+the Stx5-GosR1-Bet1L-Ykt6 SNARE
+ []
+
+
+Overfull \hbox (7.02751pt too wide) in paragraph at lines 102--103
+\TU/Manuale(0)/m/sc/10 SNARE complex formation of the short Stx5 isoform with G
+osR1, Bet1L, and Ykt6, whereas
+ []
+
+
+Overfull \hbox (4.66618pt too wide) in paragraph at lines 104--105
+\TU/Manuale(0)/m/sc/10 contains four coiled-coil domains (CC1–CC4), and the fir
+st coiled-coil domain CC1 bears
+ []
+
+[100]
+Overfull \hbox (14.08023pt too wide) in paragraph at lines 110--111
+\TU/Manuale(0)/m/sc/10 Stx5 may also play a role in Parkinson’s disease, as a d
+isease-related mutant of $\OML/cmm/m/it/10 ^^K$\TU/Manuale(0)/m/sc/10 -synuclei
+n
+ []
+
+[101] [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103
+
+])
+[104] [105
+
+
+]
+\openout2 = `chapters/chapter6.aux'.
+
+ (chapters/chapter6.tex
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf, page 1>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf, page 1>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf, page 1>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf, page 1>
+File: figures/inserts/ch6.pdf Graphic file (type pdf)
+<use figures/inserts/ch6.pdf, page 1>
+ [106
+
+]
+Chapter 6.
+[107
+
+]
+Overfull \hbox (11.36417pt too wide) in paragraph at lines 25--26
+\TU/Manuale(0)/m/sc/10 phology as measured by electron microscopy and mislocali
+zation of glycosyltransferases.
+ []
+
+[108
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109
+
+]
+[110]
+Overfull \hbox (4.89154pt too wide) in paragraph at lines 48--49
+\TU/Manuale(0)/m/sc/10 mid #65252), Jennifer Lippincott-Schwartz (pEGFP-VSVG; A
+ddgene plasmid #11912), Feng
+ []
+
+
+Overfull \hbox (4.29973pt too wide) in paragraph at lines 48--49
+\TU/Manuale(0)/m/sc/10 Zhang (pSpCas9n(BB)-2A-Puro (PX462) V2.0; Addgene plasmi
+d #62987) and Dorus Gadella
+ []
+
+
+Overfull \hbox (33.50417pt too wide) in paragraph at lines 48--49
+\TU/Manuale(0)/m/sc/10 by a Young Investigator Grant from the Human Frontier Sc
+ience Program (HFSP; RGY0080/2018)
+ []
+
+
+Overfull \hbox (1.83487pt too wide) in paragraph at lines 48--49
+\TU/Manuale(0)/m/sc/10 M-A.V., S.P., and K.M. were supported by the Estonian Re
+search Council grants GARLA8175,
+ []
+
+[111
+
+] [112
+
+]
+Overfull \hbox (1.39417pt too wide) in paragraph at lines 80--81
+\TU/Manuale(0)/m/sc/10 (Lonza BE12-119F). All media were supplemented with 10% 
+fetal calf serum (FCS, Greiner
+ []
+
+
+Overfull \hbox (3.5882pt too wide) in paragraph at lines 80--81
+\TU/Manuale(0)/m/sc/10 Bio-one, Kremsmünster, Austria) and antibiotic-antimycot
+ic solution (Gibco 15240-062).
+ []
+
+
+Overfull \hbox (4.38528pt too wide) in paragraph at lines 80--81
+\TU/Manuale(0)/m/sc/10 All cells were regularly tested for mycoplasma contamina
+tion. Human peripheral blood
+ []
+
+
+Overfull \hbox (10.6646pt too wide) in paragraph at lines 84--85
+\TU/Manuale(0)/m/sc/10 Str-KDEL_ManII-SBP-EGFP was a gift from Franck Perez (Ad
+dgene plasmid #65252). VAMP8-
+ []
+
+[113]
+Overfull \hbox (7.17953pt too wide) in paragraph at lines 92--93
+\TU/Manuale(0)/m/sc/10 Cells were plated on cleaned 12 mm glass coverslips (Ele
+ctron Microscopy Services, 72230-
+ []
+
+
+Overfull \hbox (5.23416pt too wide) in paragraph at lines 92--93
+\TU/Manuale(0)/m/sc/10 taining 0.01% Trolox (6-hydroxy-2,5,7,8-tetramethylchrom
+an-2-carboxylic acid) and 68%
+ []
+
+[114]
+Overfull \hbox (11.48218pt too wide) in paragraph at lines 100--101
+\TU/Manuale(0)/m/sc/10 ages were acquired using a a Leica SP8 SMD confocal lase
+r scanning microscope, equipped
+ []
+
+
+Overfull \hbox (5.55058pt too wide) in paragraph at lines 104--105
+\TU/Manuale(0)/m/sc/10 DMSO control of each group. Data was analyzed with a Man
+n-Whitney U non-parametric
+ []
+
+[115]
+Overfull \hbox (3.88234pt too wide) in paragraph at lines 120--121
+\TU/Manuale(0)/m/sc/10 with 1 $\OML/cmm/m/it/10 ^^V$\TU/Manuale(0)/m/sc/10 g an
+ti-GFP-antibody (Rockland 600-401-215) and protein A beads (ThermoFisher,
+ []
+
+[116]
+Overfull \hbox (1.82463pt too wide) in paragraph at lines 132--133
+\TU/Manuale(0)/m/sc/10 RUSH experiments are available upon request. Primary mic
+roscopy data was deposited
+ []
+
+[117]
+File: chapters/chapter6/SupplementaryFigure1.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure1.pdf>
+ [118
+
+]
+File: chapters/chapter6/SupplementaryFigure2.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure2.pdf>
+
+
+LaTeX Warning: Float too large for page by 29.21387pt on input line 150.
+
+[119]
+File: chapters/chapter6/SupplementaryFigure3.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure3.pdf>
+
+
+LaTeX Warning: Float too large for page by 15.732pt on input line 158.
+
+[120]
+File: chapters/chapter6/SupplementaryFigure4.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure4.pdf>
+ [121]
+File: chapters/chapter6/SupplementaryFigure5.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure5.pdf>
+ [122] [123]
+File: chapters/chapter6/SupplementaryFigure6.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure6.pdf>
+ [124]
+File: chapters/chapter6/SupplementaryFigure7.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure7.pdf>
+ [125]
+File: chapters/chapter6/SupplementaryFigure8.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure8.pdf>
+
+
+LaTeX Warning: Float too large for page by 100.5117pt on input line 202.
+
+[126]
+File: chapters/chapter6/SupplementaryFigure9.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure9.pdf>
+
+
+LaTeX Warning: Float too large for page by 30.32358pt on input line 210.
+
+[127]
+File: chapters/chapter6/SupplementaryFigure10.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure10.pdf>
+
+
+LaTeX Warning: Float too large for page by 481.99797pt on input line 218.
+
+[128]
+File: chapters/chapter6/SupplementaryFigure11.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure11.pdf>
+
+
+LaTeX Warning: Float too large for page by 140.06384pt on input line 226.
+
+[129]
+File: chapters/chapter6/SupplementaryFigure12.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure12.pdf>
+
+
+LaTeX Warning: Float too large for page by 219.6798pt on input line 234.
+
+[130]
+File: chapters/chapter6/SupplementaryFigure13.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure13.pdf>
+ [131]
+File: chapters/chapter6/SupplementaryFigure14.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure14.pdf>
+
+
+LaTeX Warning: Float too large for page by 94.34901pt on input line 250.
+
+[132]
+File: chapters/chapter6/SupplementaryFigure15.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure15.pdf>
+
+
+LaTeX Warning: Float too large for page by 340.05464pt on input line 258.
+
+[133]
+File: chapters/chapter6/SupplementaryFigure16.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure16.pdf>
+ [134]
+File: chapters/chapter6/SupplementaryFigure17.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure17.pdf>
+ [135]
+File: chapters/chapter6/SupplementaryFigure18.pdf Graphic file (type pdf)
+<use chapters/chapter6/SupplementaryFigure18.pdf>
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 8.18335pt on input line 280.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceCodePro' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 1515) in paragraph at lines 280--280
+[]\TU/LatoRegular(0)/b/n/8 Figure 6.18: |\TU/LatoRegular(0)/m/n/8 Translation i
+nitiation predictions of \TU/LatoRegular(0)/m/it/8 STX5\TU/LatoRegular(0)/m/n/8
+ . NetStart 1.0$[]$ ([][]$[][][][][] [] [] [] [][][][][][][][] [] 
+ []
+
+[136] [137
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]) [138
+
+] [139
+
+
+]
+\openout2 = `chapters/chapter7.aux'.
+
+ (chapters/chapter7.tex
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf, page 1>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf, page 1>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf, page 1>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf, page 1>
+File: figures/inserts/ch7.pdf Graphic file (type pdf)
+<use figures/inserts/ch7.pdf, page 1>
+ [140
+
+]
+Chapter 7.
+[141
+
+]) [142
+
+] [143
+
+
+]
+\openout2 = `chapters/chapter8.aux'.
+
+ (chapters/chapter8.tex
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf, page 1>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf, page 1>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf, page 1>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf, page 1>
+File: figures/inserts/ch8.pdf Graphic file (type pdf)
+<use figures/inserts/ch8.pdf, page 1>
+ [144
+
+]
+Chapter 8.
+[145
+
+] [146
+
+] [147
+
+] [148
+
+]
+Overfull \hbox (4.79193pt too wide) in paragraph at lines 38--39
+\TU/Manuale(0)/m/sc/10 Peter Linders werd geboren op 28 april 1993 te Oss. Na h
+et behalen van zijn vwo-diploma
+ []
+
+[149
+
+]
+Overfull \hbox (9.3275pt too wide) in paragraph at lines 55--58
+\TU/Manuale(0)/b/n/10 Congenital disorder of glycosylation caused by starting s
+ite-specific variant in syntaxin-
+ []
+
+
+Underfull \vbox (badness 6284) has occurred while \output is active []
+
+ [150
+
+])
+[151] (dissertation.bbl [152
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/Manuale(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+[]\TU/Manuale(0)/m/n/8 Potelle, S., Klein, A. & Foulquier, F.  Golgi post-trans
+lational modifications and associ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\TU/Manuale(0)/m/n/8 ated diseases.  \TU/Manuale(0)/m/it/8 Journal of Inherited
+ Metabolic Disease \TU/Manuale(0)/b/n/8 38\TU/Manuale(0)/m/n/8 , 741–751 (2015)
+.  URL [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+[] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] [] [][][] []
+ [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][]$[][]\TU/Manuale(0
+)/m/n/8 .  _eprint:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--61
+[]\TU/Manuale(0)/m/n/8 Dennis, J. W., Lau, K. S., Demetriou, M. & Nabi, I. R.  
+Adaptive Regulation at the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--61
+\TU/Manuale(0)/m/n/8 Cell Surface by N-Glycosylation.  \TU/Manuale(0)/m/it/8 Tr
+affic \TU/Manuale(0)/b/n/8 10\TU/Manuale(0)/m/n/8 , 1569–1578 (2009).  URL [][]
+$[][][][][] [] [] []
+ []
+
+[153]
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
+[]\TU/Manuale(0)/m/n/8 Papanikou, E. & Glick, B. S.  The yeast Golgi apparatus:
+ Insights and myster-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
+\TU/Manuale(0)/m/n/8 ies.  \TU/Manuale(0)/m/it/8 FEBS Letters \TU/Manuale(0)/b/
+n/8 583\TU/Manuale(0)/m/n/8 , 3746–3751 (2009).  URL [][]$[][][][][] [] [] [] [
+][][][] [] [][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
+[][][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][
+][][] [] [][][][] [] [][] [] [][][]$[][]\TU/Manuale(0)/m/n/8 .  _eprint:
+ []
+
+[154]
+Underfull \hbox (badness 3668) in paragraph at lines 329--340
+\TU/Manuale(0)/m/n/8 recombinant TNFR-IgG: Degradative versus biosynthetic mech
+anisms.  \TU/Manuale(0)/m/it/8 Biotechnology and Bio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--340
+\TU/Manuale(0)/m/it/8 engineering \TU/Manuale(0)/b/n/8 68\TU/Manuale(0)/m/n/8 ,
+ 637–646 (2000).  URL [][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] []
+[][][][] [] [][][] [] [][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--340
+[][] [] [][][][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][
+][][][] [] [][][][] [] [][][] [] [][][][][] [] [][] [] [][][][][][][][][][][] [
+]
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 329--340
+[][][] [] [] [] [][] [] [][][][][][]$[][]\TU/Manuale(0)/m/n/8 .  _eprint: https
+://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291097-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 342--352
+[]\TU/Manuale(0)/m/n/8 Guo, Y., Sirkis, D. W. & Schekman, R.  Protein Sorting a
+t the trans-Golgi Network.  \TU/Manuale(0)/m/it/8 Annual Re-
+ []
+
+[155]
+Underfull \hbox (badness 10000) in paragraph at lines 470--480
+[]\TU/Manuale(0)/m/n/8 Schreiner, R., Schnabel, E. & Wieland, F.  Novel N-glyco
+sylation in eukaryotes: laminin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--480
+\TU/Manuale(0)/m/n/8 contains the linkage unit beta-glucosylasparagine.  \TU/Ma
+nuale(0)/m/it/8 Journal of Cell Biology \TU/Manuale(0)/b/n/8 124\TU/Manuale(0)/
+m/n/8 , 1071–
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--480
+\TU/Manuale(0)/m/n/8 1081 (1994).  URL [][]$[][][][][] [] [] [] [][][][][][][] 
+[] [][][] [] [][][] [] [][][][][][][] [] [][][] [] [] [] [][][][] [] [][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 571--578
+[]\TU/Manuale(0)/m/n/8 Hong, W.  SNAREs and traffic.  \TU/Manuale(0)/m/it/8 Bio
+chimica et Biophysica Acta (BBA) - Molecular Cell Research
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 571--578
+\TU/Manuale(0)/b/n/8 1744\TU/Manuale(0)/m/n/8 , 120–144 (2005).  URL [][]$[][][
+][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [
+] [][][][][][][] [] [][][] []
+ []
+
+[156]
+Underfull \hbox (badness 4954) in paragraph at lines 677--686
+[] [] [][] [] [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][]\TU/Manuale(0)/
+m/n/8 .  Publisher:
+ []
+
+[157]
+Underfull \hbox (badness 1189) in paragraph at lines 849--856
+[]\TU/Manuale(0)/m/n/8 Fridmann-Sirkis, Y., Siniossoglou, S. & Pelham, H. R.  T
+MF is a golgin that binds Rab6 and in-
+ []
+
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 951--960
+[]\TU/Manuale(0)/m/n/8 de Ligt, J. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)
+/m/n/8 Diagnostic Exome Sequencing in Persons with Severe Intellectual Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 951--960
+\TU/Manuale(0)/m/n/8 ability.  \TU/Manuale(0)/m/it/8 New England Journal of Med
+icine \TU/Manuale(0)/b/n/8 367\TU/Manuale(0)/m/n/8 , 1921–1929 (2012).  URL [][
+]$[][][][][] [] [] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 951--960
+[][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][]$[][]\TU/Manuale(0)/m/n
+/8 .  Publisher: Massachusetts Medical Society _eprint:
+ []
+
+[159]
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1081
+[]\TU/Manuale(0)/m/n/8 Holthuis, J. C. M., Jansen, E. J. R., Schoonderwoert, V.
+ T. G., Burbach, J. P. H. & Martens,
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 1069--1081
+\TU/Manuale(0)/m/n/8 G. J. M.  Biosynthesis of the vacuolar H+-ATPase accessory
+ subunit Ac45 in Xenopus pi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1081
+\TU/Manuale(0)/m/n/8 tuitary.  \TU/Manuale(0)/m/it/8 European Journal of Bioche
+mistry \TU/Manuale(0)/b/n/8 262\TU/Manuale(0)/m/n/8 , 484–491 (1999).  URL [][]
+$[][][][][] [] [] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 1152--1161
+[]\TU/Manuale(0)/m/n/8 Kinouchi, K. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0
+)/m/n/8 The Role of Individual Domains and the Significance of Shedding of
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 1152--1161
+\TU/Manuale(0)/m/n/8 ATP6AP2/(pro)renin Receptor in Vacuolar H+-ATPase Biogenes
+is.  \TU/Manuale(0)/m/it/8 PLOS ONE \TU/Manuale(0)/b/n/8 8\TU/Manuale(0)/m/n/8 
+, e78603 (2013).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1161
+\TU/Manuale(0)/m/n/8 URL [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][] 
+[] [][][] [] [][][][][][][] [] [][][][][][][] [] [][] [] [][] [] [][][][] [] []
+[][][][][][] [] [][][][] []
+ []
+
+[160]
+Underfull \hbox (badness 1688) in paragraph at lines 1174--1183
+[]\TU/Manuale(0)/m/n/8 Kissing, S. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)
+/m/n/8 Disruption of the vacuolar-type H+-ATPase complex in liver causes MTORC1
+-
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1235--1246
+[]\TU/Manuale(0)/m/n/8 Graham, L. A., Hill, K. J. & Stevens, T. H.  Assembly of
+ the Yeast Vacuolar H+-ATPase Occurs in
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 1235--1246
+\TU/Manuale(0)/m/it/8 Biology \TU/Manuale(0)/b/n/8 142\TU/Manuale(0)/m/n/8 , 39
+–49 (1998).  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] []
+ [][][][][][][] [] [][][] [] [] [] [][] [] [][][][] []
+ []
+
+Missing character: There is no α in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+[161] [162]
+Underfull \hbox (badness 1577) in paragraph at lines 1454--1461
+[]\TU/Manuale(0)/m/n/8 Xiang, Y. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)/m
+/n/8 Regulation of protein glycosylation and sorting by the Golgi matrix protei
+ns
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 1454--1461
+\TU/Manuale(0)/m/n/8 GRASP55/65.  \TU/Manuale(0)/m/it/8 Nature Communications \
+TU/Manuale(0)/b/n/8 4\TU/Manuale(0)/m/n/8 , 1659–1659 (2013).  URL [][]$[][][][
+] [] [] [] [][][] [] [][][][][][] [] [][][] []
+ []
+
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+
+Underfull \hbox (badness 5726) in paragraph at lines 1511--1521
+[]\TU/Manuale(0)/m/n/8 Lisker, R. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)/
+m/n/8 Gerodermia osteodysplastica hereditaria: Report of three affected broth-
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 1511--1521
+\TU/Manuale(0)/m/n/8 ers and literature review.  \TU/Manuale(0)/m/it/8 American
+ Journal of Medical Genetics \TU/Manuale(0)/b/n/8 3\TU/Manuale(0)/m/n/8 , 389–3
+95 (1979).  URL
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 1511--1521
+[][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] 
+[][][] [] [][][] [] [][] [] [][][][] [] [][][][] [] [][][][][][][][][][]$[][]\T
+U/Manuale(0)/m/n/8 .  _eprint:
+ []
+
+Missing character: There is no γ in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+[163]
+Underfull \hbox (badness 5147) in paragraph at lines 1619--1630
+[]\TU/Manuale(0)/m/n/8 Blackburn, J. B., D’Souza, Z. & Lupashin, V. V.  Maintai
+ning order: COG complex controls
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 1619--1630
+\TU/Manuale(0)/m/n/8 Golgi trafficking, processing, and sorting.  \TU/Manuale(0
+)/m/it/8 FEBS Letters \TU/Manuale(0)/b/n/8 593\TU/Manuale(0)/m/n/8 , 2466–2487 
+(2019).  URL [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 1619--1630
+[] [] [][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] 
+[] [][][] [] [][] [] [][][][] [] [][][][][][][][][][] [] [][][][][]$[][]\TU/Man
+uale(0)/m/n/8 .  _eprint:
+ []
+
+[164]
+Underfull \hbox (badness 2478) in paragraph at lines 1745--1756
+[]\TU/Manuale(0)/m/n/8 Kodera, H. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)/
+m/n/8 Mutations in COG2 encoding a subunit of the conserved oligomeric golgi
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 1745--1756
+\TU/Manuale(0)/m/n/8 complex cause a congenital disorder of glycosylation.  \TU
+/Manuale(0)/m/it/8 Clinical Genetics \TU/Manuale(0)/b/n/8 87\TU/Manuale(0)/m/n/
+8 , 455–460 (2015).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1756
+\TU/Manuale(0)/m/n/8 URL [][]$[][][][][] [] [] [] [][][][][][][][][][][][][] []
+ [][][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][] [] [][]
+[][][]$[][].  _eprint:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1768--1778
+[]\TU/Manuale(0)/m/n/8 Palmigiano, A. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale
+(0)/m/n/8 MALDI-MS profiling of serum O-glycosylation and N-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1768--1778
+\TU/Manuale(0)/m/n/8 glycosylation in COG5-CDG.  \TU/Manuale(0)/m/it/8 Journal 
+of Mass Spectrometry \TU/Manuale(0)/b/n/8 52\TU/Manuale(0)/m/n/8 , 372–377 (201
+7).  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1768--1778
+[][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] 
+[][][] [] [][][] [] [][] [] [][][][] [] [][][] [] [][][][]$[][]\TU/Manuale(0)/m
+/n/8 .  _eprint:
+ []
+
+[165] [166]
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2164
+[]\TU/Manuale(0)/m/n/8 Peng, R. & Gallwitz, D.  Sly1 protein bound to Golgi syn
+taxin Sed5p allows assembly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2164
+\TU/Manuale(0)/m/n/8 and contributes to specificity of SNARE fusion complexes. 
+ \TU/Manuale(0)/m/it/8 Journal of Cell Biology \TU/Manuale(0)/b/n/8 157\TU/Manu
+ale(0)/m/n/8 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2164
+\TU/Manuale(0)/m/n/8 645–655 (2002).  URL [][]$[][][][][] [] [] [] [][][][][][]
+[] [] [][][] [] [][][] [] [][][][][][][] [] [][][] [] [] [] [][][] [] [][][][][
+] []
+ []
+
+[167]
+Underfull \hbox (badness 1755) in paragraph at lines 2214--2225
+[]\TU/Manuale(0)/m/n/8 Poojary, S., Shah, K. S., Bhalala, K. B. & Hegde, A. U. 
+ CEDNIK syndrome in an Indian patient
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 2214--2225
+\TU/Manuale(0)/m/n/8 with a novel mutation of the SNAP29 gene.  \TU/Manuale(0)/
+m/it/8 Pediatric Dermatology \TU/Manuale(0)/b/n/8 36\TU/Manuale(0)/m/n/8 , 372–
+376 (2019).  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2214--2225
+[][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] 
+[][][] [] [][][] [] [][] [] [][][][] [] [][][] [] [][][][][]$[][]\TU/Manuale(0)
+/m/n/8 .  _eprint:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2259--2269
+[]\TU/Manuale(0)/m/n/8 Fuchs‐Telem, D. \TU/Manuale(0)/m/it/8 et al.  \TU/Manual
+e(0)/m/n/8 CEDNIK syndrome results from loss-of-function mutations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2259--2269
+\TU/Manuale(0)/m/n/8 in SNAP29.  \TU/Manuale(0)/m/it/8 British Journal of Derma
+tology \TU/Manuale(0)/b/n/8 164\TU/Manuale(0)/m/n/8 , 610–616 (2011).  URL [][]
+$[][][][][] [] [] []
+ []
+
+[168]
+Missing character: There is no α in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+
+Underfull \hbox (badness 5711) in paragraph at lines 2431--2441
+[]\TU/Manuale(0)/m/n/8 Rajab, A. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0)/m
+/n/8 Geroderma osteodysplasticum hereditaria and wrinkly skin syndrome in
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 2431--2441
+\TU/Manuale(0)/m/n/8 22 patients from Oman.  \TU/Manuale(0)/m/it/8 American Jou
+rnal of Medical Genetics Part A \TU/Manuale(0)/b/n/8 146A\TU/Manuale(0)/m/n/8 ,
+ 965–976 (2008).
+ []
+
+[169] [170]
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2640
+[] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] [] [][][] []
+ [][] [] [][][][] [] [] [] [][][][][][][][][][] [] [][][][] [] [][][][][][][] [
+] []$[][]\TU/Manuale(0)/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 2712--2722
+[]\TU/Manuale(0)/m/n/8 Klausner, R. D., Donaldson, J. G. & Lippincott-Schwartz,
+ J.  Brefeldin A: insights into the
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 2712--2722
+\TU/Manuale(0)/m/n/8 control of membrane traffic and organelle structure.  \TU/
+Manuale(0)/m/it/8 Journal of Cell Biology \TU/Manuale(0)/b/n/8 116\TU/Manuale(0
+)/m/n/8 , 1071–
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2712--2722
+\TU/Manuale(0)/m/n/8 1080 (1992).  URL [][]$[][][][][] [] [] [] [][][][][][][] 
+[] [][][] [] [][][] [] [][][][][][][] [] [][][] [] [] [] [][][][] [] [][][][][]
+ []
+ []
+
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 2808--2818
+[]\TU/Manuale(0)/m/n/8 Wolfe, D. M. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale(0
+)/m/n/8 Autophagy failure in Alzheimer’s disease and the role of defective
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2808--2818
+\TU/Manuale(0)/m/n/8 lysosomal acidification.  \TU/Manuale(0)/m/it/8 European J
+ournal of Neuroscience \TU/Manuale(0)/b/n/8 37\TU/Manuale(0)/m/n/8 , 1949–1961 
+(2013).  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2808--2818
+[][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] 
+[][][] [] [][][] [] [][] [] [][][][] [] [][][] [] [][][][][]$[][]\TU/Manuale(0)
+/m/n/8 .  _eprint:
+ []
+
+Missing character: There is no α in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+
+Underfull \hbox (badness 2781) in paragraph at lines 2895--2903
+\TU/Manuale(0)/m/n/8 (2015).  URL [][]$[][][][][] [] [] [] [][][][][][][][] [] 
+[][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][] [] [][] [] [][][
+][] [] [][][][][][][] []
+ []
+
+[172] [173] [174]
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+
+Underfull \hbox (badness 1484) in paragraph at lines 3230--3238
+[]\TU/Manuale(0)/m/n/8 Schuldiner, M. \TU/Manuale(0)/m/it/8 et al.  \TU/Manuale
+(0)/m/n/8 The GET Complex Mediates Insertion of Tail-Anchored Proteins into the
+
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 3230--3238
+\TU/Manuale(0)/m/n/8 ER Membrane.  \TU/Manuale(0)/m/it/8 Cell \TU/Manuale(0)/b/
+n/8 134\TU/Manuale(0)/m/n/8 , 634–645 (2008).  URL [][]$[][][][][] [] [] [] [][
+][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
+ []
+
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+[175]
+Underfull \hbox (badness 3482) in paragraph at lines 3363--3374
+\TU/Manuale(0)/m/n/8 visiae immunoisolated by Sed5p.  \TU/Manuale(0)/m/it/8 FEB
+S Letters \TU/Manuale(0)/b/n/8 469\TU/Manuale(0)/m/n/8 , 151–154 (2000).  URL [
+][]$[][][][][] [] [] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3363--3374
+[][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] [] [][][] [] [][] 
+[] [][][][] [] [][][][][][][][][][][] [] [][][][] [] [][][][][][][][][][]$[][]\
+TU/Manuale(0)/m/n/8 .
+ []
+
+[176]
+Underfull \hbox (badness 3612) in paragraph at lines 3567--3578
+[]\TU/Manuale(0)/m/n/8 Wang, T., Grabski, R., Sztul, E. & Hay, J. C.  p115–SNAR
+E Interactions: A Dynamic Cycle of
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 3567--3578
+\TU/Manuale(0)/m/n/8 p115 Binding Monomeric SNARE Motifs and Releasing Assemble
+d Bundles.  \TU/Manuale(0)/m/it/8 Traffic \TU/Manuale(0)/b/n/8 16\TU/Manuale(0)
+/m/n/8 , 148–171
+ []
+
+[177]
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+Missing character: There is no β in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+Missing character: There is no α in font Manuale Regular/OT:script=latn;languag
+e=dflt;+liga;mapping=tex-text;!
+ [178]
+Underfull \hbox (badness 10000) in paragraph at lines 3775--3785
+[]\TU/Manuale(0)/m/n/8 Canton, J. & Kima, P. E.  Interactions of pathogen-conta
+ining compartments with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3775--3785
+\TU/Manuale(0)/m/n/8 the secretory pathway.  \TU/Manuale(0)/m/it/8 Cellular Mic
+robiology \TU/Manuale(0)/b/n/8 14\TU/Manuale(0)/m/n/8 , 1676–1686 (2012).  URL 
+[][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3775--3785
+[] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] [] [][][] []
+ [][] [] [][][][] [] [][][] [] [][][][][]$[][]\TU/Manuale(0)/m/n/8 .  _eprint:
+ []
+
+[179])
+
+Package natbib Warning: There were undefined citations.
+
+
+AED: pageslts setting LastPage 
+[180]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 75.
+\c@pagesLTS.arabic.1.local.count=\count311
+ 
+AED: pageslts setting VeryLastPage via AfterLastShipout 
+
+AED: pageslts setting LastPages via AfterLastShipout 
+
+
+Package pageslts Info: Total number of pages is even.
+
+
+\tf@tmb=\write5
+\openout5 = `dissertation.tmb'.
+
+(dissertation.aux (chapters/chapter1.aux) (chapters/chapter2.aux)
+(chapters/chapter3.aux) (chapters/chapter4.aux) (chapters/chapter5.aux)
+(chapters/chapter6.aux) (chapters/chapter7.aux) (chapters/chapter8.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: A23A021ACFA0480BC2E86E193A148FE8;3821.
+Package rerunfilecheck Info: File `dissertation.tmb' has not changed.
+(rerunfilecheck)             Checksum: D969C5503AF22E44AF9007F5FBCC0CBD;547.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+Output written on dissertation.xdv (180 pages, 3805048 bytes).
