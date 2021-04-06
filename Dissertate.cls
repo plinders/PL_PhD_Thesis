@@ -18,12 +18,12 @@
 %
 \RequirePackage{etoolbox}
 \RequirePackage{pdfpages}
-\RequirePackage{notoccite}
 \RequirePackage{longtable}
 \RequirePackage{lscape}
 \RequirePackage{array}
 \RequirePackage{ccaption}
 \RequirePackage[section]{placeins}
+
 
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
@@ -89,7 +89,8 @@
 % Fonts.
 \RequirePackage{color}
 \RequirePackage{xcolor}
-\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref}
+\RequirePackage{breakcites}
 \RequirePackage{url}
 \RequirePackage{amssymb}
 \RequirePackage{mathspec}
