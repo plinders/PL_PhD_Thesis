@@ -281,7 +281,7 @@
     \input{frontmatter/personalize}
     \firstpage
     \copyrightpage
-    \maketitle
+    %\maketitle
     \promoterenpage
     \newpage
     \contentspage
