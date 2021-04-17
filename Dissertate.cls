@@ -140,13 +140,13 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.0pt}
 % \renewcommand*\chaptermark[1]{\markboth{\MakeUppercase{\thechapter.\ #1}}{}}
-\fancyfoot[LE,RO]{\changefont \thepage}    % Page number (boldface) in left on even
+% \fancyfoot[LE,RO]{\changefont \thepage}    % Page number (boldface) in left on even
 % \fancyhead[LE]{\changefont \nouppercase{\leftmark}}      % Chapter in the left on even pages
 % \fancyhead[RO]{\changefont \nouppercase{\rightmark}\chaptermark}     % Section in the right on odd pages
 %% Chapter name on left (even) page.
 %% Section name on right (odd) page.
-\fancyhead[LE]{\changefont \nouppercase{\leftmark}}
-\fancyhead[RO]{\changefont \nouppercase{\rightmark}}
+\fancyhead[LE]{\changefont \thepage \ \textcolor{chaptergrey}{|} \nouppercase{\leftmark}}
+\fancyhead[RO]{\changefont \nouppercase{\rightmark} \textcolor{chaptergrey}{|} \thepage}
 
 
 \assignpagestyle{\chapter}{empty}
@@ -358,18 +358,21 @@
     \vspace{120pt}
     \noindent \textbf{Promotoren}\\
     \noindent Prof. dr. Geert van den Bogaart (Rijksuniversiteit Groningen)\\
-    \noindent Prof. dr Dirk J. Lefeber\\
+    \noindent Prof. dr. Dirk J. Lefeber (Radboudumc)\\
     \noindent \\
     \noindent \textbf{Copromotor}\\
     \noindent Dr. Martin ter Beest\\
     \noindent \\
     \noindent \textbf{Manuscriptcommissie}\\
-    \noindent Harry van den Boekel\\
+    \noindent Prof. dr. Alessandra Cambi (Radboudumc, voorzitster)\\
+    \noindent Prof. dr. Ody Sibon (UMCG)\\
+    \noindent dr. Ruben Bierings (Sanquin)
     \newpage
     \rm
 }
 
 \newcommand{\contentspage}{
+    \thispagestyle{empty}    
     \newpage
     \pdfbookmark{\contentsname}{Contents}
     \tableofcontents
