@@ -70,6 +70,7 @@
 
 % Text layout.
 % \RequirePackage[width=5.75in, letterpaper]{geometry}
+% \RequirePackage[dvips=false,pdftex=false,vtex=false]{geometry}
 \RequirePackage[papersize={17cm, 24cm},
                 top=2.5cm,
                 bottom=2.0cm,
@@ -316,8 +317,8 @@
     \noindent \textbf{Design} \\
     \noindent P.T.A. Linders \\
     \noindent \\
-    \noindent \textbf{Print} \\
-    \noindent Gildeprint \\
+   %  \noindent \textbf{Print} \\
+    % \noindent Gildeprint \\
     \noindent \\
     \noindent \\
 	\scshape \noindent \small \textbf{\copyright \small 2021\hspace{3pt}-- \theauthor} \\
@@ -445,8 +446,11 @@
     width={auto},distance={6mm},topthumbmargin={auto},bottomthumbmargin={auto},
     eventxtindent={5pt},oddtxtexdent={5pt},
     evenmarkindent={0pt},oddmarkexdent={0pt},evenprintvoffset={0pt},
-    nophantomsection=true,ignorehoffset=true,ignorevoffset=true,final=true,
+    nophantomsection=true,ignorehoffset=false,ignorevoffset=false,final=true,
     hidethumbs=false,verbose=true]{thumbs}
+
+\usepackage[cam,a4,center,dvips]{crop}
+
 
 \usepackage{pagecolor}
 

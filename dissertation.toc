@@ -1,0 +1,138 @@
+\thispagestyle {empty}
+\contentsline {chapter}{\numberline {1}General Introduction}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Golgi Apparatus}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Secretory Pathway}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Glycosylation}{13}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Membrane Fusion}{15}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Scope of this Thesis}{18}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Sugary Logistics Gone Wrong: Membrane Trafficking and Congenital Disorders of Glycosylation}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Abstract}{22}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction}{23}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Membrane Trafficking Components in CDG}{26}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Vacuolar H\textsuperscript {+}-ATPase}{26}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Golgins, GRASPs, GORAB, and Rabs}{29}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Conserved oligomeric Golgi Tethering Complex}{32}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}SNAREs}{36}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Discussion and Conclusions}{38}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Author Contributions}{39}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Funding}{39}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Conflicts of Interest}{39}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Supplementary Information}{40}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Fluorescence lifetime imaging of pH along the secretory pathway}{47}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{48}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction}{49}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Results}{50}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}FLIM measurements of recombinant ratiometric pHLuorin2}{50}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}pH measurements in the secretory pathway}{52}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Dynamic measurements of pH in the secretory pathway}{55}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{57}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Acknowledgments}{57}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Author Contributions}{58}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Declaration of Interests}{58}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Methods}{59}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Cloning}{59}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Cell culture and transfection}{59}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}pH calibration buffers}{60}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Recombinant protein expression and purification}{60}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Confocal microscopy}{60}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Quantification and statistical analysis}{61}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Data and code availability}{61}{subsection.3.5.7}%
+\contentsline {section}{\numberline {3.6}Supplementary Information}{62}{section.3.6}%
+\contentsline {chapter}{\numberline {4}N-glycosylation is dependent on TMEM199-mediated V-ATPase assembly}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Abstract}{66}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction}{67}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Results}{67}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Generation of a TMEM199KO model}{67}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Loss of TMEM199 relocalizes glycosyltransferases}{69}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}pH measurements in TMEM199KO cells}{71}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Biochemical investigations of the role of TMEM199 in V-ATPase assembly}{74}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Discussion}{76}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Acknowledgments}{77}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Author Contributions}{77}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Declaration of Interests}{77}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Methods}{78}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Cell culture and transfection}{78}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Antibodies}{78}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}CRISPR/Cas9}{78}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Lectin stainings}{79}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}pH measurements}{79}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Confocal microscopy}{79}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {4.5.7}Immunofluorescence}{80}{subsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.5.8}Crosslinking and cell fractionation}{80}{subsection.4.5.8}%
+\contentsline {subsection}{\numberline {4.5.9}SDS-PAGE and immunoblotting}{80}{subsection.4.5.9}%
+\contentsline {subsection}{\numberline {4.5.10}Quantification and statistical analysis}{80}{subsection.4.5.10}%
+\contentsline {section}{\numberline {4.6}Supplementary Information}{81}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Stx5-Mediated ER-Golgi Transport in Mammals and Yeast}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Abstract}{92}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction}{93}{section.5.2}%
+\contentsline {section}{\numberline {5.3}SNARE Proteins in ER-Golgi and Intra-Golgi Transport}{94}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Subcellular Localization of Stx5 Isoforms}{98}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Posttranslational Modifications}{103}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Scfd1/Sly1p}{103}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Tethering Complexes}{104}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Infections and Neurodegenerative Disease}{106}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Discussion}{107}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Author Contributions}{108}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Funding}{108}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Conflicts of Interest}{108}{subsection.5.9.3}%
+\contentsline {chapter}{\numberline {6}Congenital disorder of glycosylation caused by starting site-specific variant in syntaxin-5}{111}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Abstract}{112}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Introduction}{113}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Results}{114}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Clinical data}{114}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Abnormal protein glycosylation suggests a defect in Golgi trafficking}{115}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Molecular investigations result in the identification of variants in \emph {STX5}}{115}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Glycosylation defects in Stx5M55V patient fibroblasts}{119}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Stx5M55V mutation results in mislocalization of glycosyltransferases}{120}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}Stx5S mediates retrograde Golgi-ER and intra-Golgi trafficking}{121}{subsection.6.3.6}%
+\contentsline {subsection}{\numberline {6.3.7}Faster Golgi exit of Stx5L due to ER-retrieval motif}{125}{subsection.6.3.7}%
+\contentsline {subsection}{\numberline {6.3.8}The two isoforms of Stx5 differently engage in SNARE complexes}{127}{subsection.6.3.8}%
+\contentsline {section}{\numberline {6.4}Discussion}{131}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Acknowledgments}{133}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Author Contributions}{133}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Declaration of Interests}{133}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Methods}{134}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Ethics}{134}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Glycosylation studies}{134}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Microarray analysis}{134}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}Exome sequencing}{134}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}Cell culture}{135}{subsection.6.5.5}%
+\contentsline {subsection}{\numberline {6.5.6}Plasmids and transfection}{135}{subsection.6.5.6}%
+\contentsline {subsection}{\numberline {6.5.7}CRISPR/Cas9}{136}{subsection.6.5.7}%
+\contentsline {subsection}{\numberline {6.5.8}Immunofluorescence}{136}{subsection.6.5.8}%
+\contentsline {subsection}{\numberline {6.5.9}Lectin stainings}{136}{subsection.6.5.9}%
+\contentsline {subsection}{\numberline {6.5.10}Brefeldin A assay}{137}{subsection.6.5.10}%
+\contentsline {subsection}{\numberline {6.5.11}H-89 assay}{137}{subsection.6.5.11}%
+\contentsline {subsection}{\numberline {6.5.12}Transmission electron microscopy}{138}{subsection.6.5.12}%
+\contentsline {subsection}{\numberline {6.5.13}Live-cell epifluorescence microscopy}{138}{subsection.6.5.13}%
+\contentsline {subsection}{\numberline {6.5.14}FRET-FLIM}{138}{subsection.6.5.14}%
+\contentsline {subsection}{\numberline {6.5.15}Immunoprecipitation}{139}{subsection.6.5.15}%
+\contentsline {subsection}{\numberline {6.5.16}SDS-PAGE and immunoblotting}{139}{subsection.6.5.16}%
+\contentsline {subsection}{\numberline {6.5.17}Quantification and statistical analysis}{139}{subsection.6.5.17}%
+\contentsline {subsection}{\numberline {6.5.18}Data and code availability}{140}{subsection.6.5.18}%
+\contentsline {section}{\numberline {6.6}Supplementary Information}{141}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Discussion \& Future Perspectives}{173}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Clinical Foundation of this Thesis}{174}{section.7.1}%
+\contentsline {section}{\numberline {7.2}On Tissue-Specific Glycosylation}{175}{section.7.2}%
+\contentsline {section}{\numberline {7.3}The Use of Primary Human Material in Cell Biological Studies}{176}{section.7.3}%
+\contentsline {section}{\numberline {7.4}How Advancements in Microscopy Advance Golgi and Glycosylation Research}{178}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Intersecting Membrane Trafficking and Glycosylation}{180}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Concluding Remarks}{181}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Appendix}{183}{chapter.8}%
+\contentsline {section}{\numberline {8.1}English Summary}{184}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Glycosylation}{184}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Golgi transport}{184}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Syntaxin-5, the most important SNARE protein for Golgi transport}{186}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Conclusion}{186}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Nederlandse Samenvatting}{188}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Glycosylering}{188}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Golgi transport}{188}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Syntaxin-5, het belangrijkste SNARE-eiwit voor Golgi transport}{190}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Conclusie}{190}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3}Dankwoord}{192}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Curriculum Vitae (English)}{194}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Curriculum Vitae (Nederlands)}{195}{section.8.5}%
+\contentsline {section}{\numberline {8.6}List of Publications}{196}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Research Data Management}{198}{section.8.7}%
+\contentsline {section}{\numberline {8.8}RIMLS Portfolio}{200}{section.8.8}%
+\contentsline {chapter}{References}{201}{section.8.8}%

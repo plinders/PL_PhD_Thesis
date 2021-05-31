@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
@@ -10,8 +10,52 @@ A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/chapter7.aux
 A level-1 auxiliary file: chapters/chapter8.aux
 The style file: naturemag.bst
+Reallocated field_info (elt_size=4) to 16830 items from 5000.
 Database file #1: references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I didn't find a database entry for "wong_specificity_2014"
 Warning--I didn't find a database entry for "kelly"
 Warning--I didn't find a database entry for "scherpenzeel_high-resolution_2015"
+You've used 452 entries,
+            2348 wiz_defined-function locations,
+            3666 strings with 162273 characters,
+and the built_in function-call counts, 200372 in all, are:
+= -- 15710
+> -- 4699
+< -- 1
++ -- 2349
+- -- 1174
+* -- 25609
+:= -- 22185
+add.period$ -- 1942
+call.type$ -- 452
+change.case$ -- 648
+chr.to.int$ -- 0
+cite$ -- 452
+duplicate$ -- 17065
+empty$ -- 17448
+format.name$ -- 1592
+if$ -- 39635
+int.to.chr$ -- 0
+int.to.str$ -- 452
+missing$ -- 4038
+newline$ -- 2854
+num.names$ -- 453
+pop$ -- 1844
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2767
+stack$ -- 0
+substring$ -- 11657
+swap$ -- 17486
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 1265
+width$ -- 455
+write$ -- 6138
 (There were 3 warnings)
