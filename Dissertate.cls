@@ -282,7 +282,7 @@
     \input{frontmatter/personalize}
     \firstpage
     \copyrightpage
-    %\maketitle
+    \maketitle
     \promoterenpage
     \newpage
     \contentspage
@@ -341,8 +341,8 @@
     aan de Radboud Universiteit Nijmegen\\
     op gezag van de rector magnificus prof. dr. J.H.J.M. van Krieken,\\
     volgens besluit van het college van decanen\\
-    in het openbaar te verdedigen op vrijdag 24 december 2021\\
-    om 12.30 uur precies\\
+    in het openbaar te verdedigen op vrijdag 1 oktober 2021\\
+    om 16.30 uur precies\\
     \vspace{20pt}
     door\\
     \vspace{20pt}}
@@ -359,15 +359,15 @@
     \vspace{120pt}
     \noindent \textbf{Promotoren}\\
     \noindent Prof. dr. Geert van den Bogaart (Rijksuniversiteit Groningen)\\
-    \noindent Prof. dr. Dirk J. Lefeber (Radboudumc)\\
+    \noindent Prof. dr. Dirk J. Lefeber\\
     \noindent \\
     \noindent \textbf{Copromotor}\\
     \noindent Dr. Martin ter Beest\\
     \noindent \\
     \noindent \textbf{Manuscriptcommissie}\\
-    \noindent Prof. dr. Alessandra Cambi (Radboudumc, voorzitster)\\
-    \noindent Prof. dr. Ody Sibon (UMCG)\\
-    \noindent dr. Ruben Bierings (Sanquin)
+    \noindent Prof. dr. Alessandra Cambi (voorzitter)\\
+    \noindent Prof. dr. Ody C.M. Sibon (Rijksuniversiteit Groningen)\\
+    \noindent Dr. ir. Ruben Bierings (Erasmus Medisch Centrum Rotterdam)
     \newpage
     \rm
 }
