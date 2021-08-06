@@ -5,7 +5,7 @@
 \addthumb{\thechapter}{\Large{\thechapter}}{white}{chaptergrey}
 \stopthumb
 
-\includepdf{figures/inserts/ch4.pdf}
+\includepdf[noautoscale=true, width=176mm]{figures/inserts/ch4.pdf}
 
 % Set chapter number color to be similar to the insert color
 \definecolor{chaptergrey}{rgb}{0.121148, 0.592739, 0.544641}
@@ -22,7 +22,7 @@
 
 \clearpage
 
-\stopthumb
+\continuethumb
 \section{Abstract}
 
 The mammalian vacuolar H\textsuperscript{+}-ATPase (V-ATPase) is an important proton pump present at the membrane of the Golgi apparatus membrane and other organelles, where it ensures luminal pH suitable for Golgi processes. The molecular mechanisms of mammalian V-ATPase assembly are still unclear, but mutations in TMEM199, the mammalian homolog of yeast V-ATPase assembly factor Vma12p, cause a disorder of glycosylation characterized by hyposialylation, hypogalactosylation and elevated liver enzymes. In this study, we generate a HeLa cell model lacking TMEM199 with CRISPR/Cas9 to dissect the molecular mechanisms of disease. We observed that several enzymes responsible for glycosylation are mislocalized in TMEM199KO cells. Then, we applied a novel method to determine intraorganellar pH along the secretory pathway and observed that intraorganellar pH is misregulated in TMEM199KO cells. Finally, we performed biochemical studies to discover that TMEM199 is involved in the specific assembly of the Golgi- and endosome-localized V\textsubscript{0}a2 subunit and that TMEM199 is required for membrane association of CCDC115, the mammalian homolog of yeast V-ATPase assembly factor Vma22p. Thus, we present the underlying molecular mechanisms of glycosylation disorders caused by mutations in TMEM199.
@@ -62,7 +62,7 @@ Given that our TMEM199KO cell models have defective cell surface glycosylation, 
     \label{fig:ch4fig2}
 \end{figure}
 \begin{figure}[t]
-    \contcaption{\textbf{(a)} Immunofluorescence microscopy of MGAT1 (green in merge) and GM130 (magenta) in parental HeLa cells (green, P) or TMEM199KO cells (B1 and B2, orange). Representative confocal micrographs. Scalebars, 10 $\mu$m. DAPI in blue. \textbf{(b)} Pearson’s correlation coefficients between MGAT1 and GM130 of panel (a). N = 118 (P), 78 (B1), and 99 (B2) from two independent experiments. \textbf{(c)} Same as panel (a) but now for MGAT1 (green) and TGN46 (magenta). \textbf{(d)} Pearson’s correlation coefficients between MGAT1 and TGN46 of panel (c). N = 75 (P), 68 (B1), and 99 (B2) from two independent experiments.}
+    \contcaption{\textbf{(a)} Immunofluorescence microscopy of MGAT1 (green in merge) and GM130 (magenta) in parental HeLa cells (green, P) or TMEM199KO cells (B1 and B2, orange). Representative confocal micrographs. Scalebars, 10 $\mu$m. DAPI in blue. \textbf{(b)} Pearson’s correlation coefficients between MGAT1 and GM130 of panel (a). \newline N = 118 (P), 78 (B1), and 99 (B2) from two independent experiments. \textbf{(c)} Same as panel (a) but now for MGAT1 (green) and TGN46 (magenta). \textbf{(d)} Pearson’s correlation coefficients between MGAT1 and TGN46 of panel (c). N = 75 (P), 68 (B1), and 99 (B2) from two independent experiments.}
 \end{figure}
 
 As a control, we investigated protein expression levels (inferred from the fluorescence intensity of the immunofluorescence labeling) of the markers used in the colocalization experiments, and did not find a correlation between expression and differences in colocalization (Supplementary Figure~\ref{fig:ch4supfig4}). We did observe a slight condensation of GM130 labeling area in B1 cells and a slight dilation in B2 cells, while we observed condensation of ZFPL1 labeling area only in B2 cells. A similar condensation phenotype was observed for TGN46 in B2 cells. These results suggest that the Golgi morphology is differentially altered in the two TMEM199 knockout strains.
@@ -174,10 +174,9 @@ Statistical analysis of three or more groups was performed using pair-wise t-tes
 
 \section{Supplementary Information}
 
-\clearpage
-
-\begin{figure}
-    \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter4/chapter4_SupplementaryFigure1.pdf}
+\begin{figure}[h]
+    \centering
+    \includegraphics[keepaspectratio=true,width=\textwidth]{chapters/chapter4/chapter4_SupplementaryFigure1.pdf}
     \caption{\textbf{FACS gating strategy for lectin stainings.} The cell population shown is of the parental sample shown in Figure~\ref{fig:ch4fig1}b. FSC-A: forward scatter area, SSC-A: side scatter area, FSC-H: forward scatter height.}
     \label{fig:ch4supfig1}
 \end{figure}
@@ -194,11 +193,8 @@ Statistical analysis of three or more groups was performed using pair-wise t-tes
 
 \begin{figure}
     \includegraphics[keepaspectratio=true,width=\textwidth,height=\textheight]{chapters/chapter4/chapter4_SupplementaryFigure3.pdf}
-    \caption{\textbf{Relocation of glycosyltransferase GALNT2 in TMEM199KO HeLa cells.} (Continued on the following page.)}
+    \caption{\textbf{Relocation of glycosyltransferase GALNT2 in TMEM199KO HeLa cells.} \textbf{(a)} Immunofluorescence microscopy of GALNT2 (green in merge) and ZFPL1 (magenta) in parental HeLa cells (green, P) or TMEM199KO cells (B1 and B2, orange). Representative confocal micrographs. Scalebars, 10 $\mu$m. DAPI in blue. \textbf{(b)} Pearson’s correlation coefficients between GALNT2 and ZFPL1 of panel (a). N = 142 (P), 65 (B1), and 117 (B2) from two independent experiments. \textbf{(c)} Same as panel (a) but now for GALNT2 (green) and TGN46 (magenta). \textbf{(d)} Pearson’s correlation coefficients between GALNT2 and TGN46 of panel (c). N = 170 (P), 101 (B1), and 154 (B2) from two independent experiments.}
     \label{fig:ch4supfig3}
-\end{figure}
-\begin{figure}[t]
-    \contcaption{\textbf{(a)} Immunofluorescence microscopy of GALNT2 (green in merge) and ZFPL1 (magenta) in parental HeLa cells (green, P) or TMEM199KO cells (B1 and B2, orange). Representative confocal micrographs. Scalebars, 10 $\mu$m. DAPI in blue. \textbf{(b)} Pearson’s correlation coefficients between GALNT2 and ZFPL1 of panel (a). N = 142 (P), 65 (B1), and 117 (B2) from two independent experiments. \textbf{(c)} Same as panel (a) but now for GALNT2 (green) and TGN46 (magenta). \textbf{(d)} Pearson’s correlation coefficients between GALNT2 and TGN46 of panel (c). N = 170 (P), 101 (B1), and 154 (B2) from two independent experiments.}
 \end{figure}
 
 \clearpage

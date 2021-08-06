@@ -25,6 +25,7 @@
 \RequirePackage[section]{placeins}
 
 
+
 % Line spacing: dsingle/ddouble
 %   Whether to use single- or doublespacing.
 \newtoggle{DissertateSingleSpace}
@@ -77,7 +78,8 @@
                 left=2.0cm,
                 right=2.0cm]{geometry}
 \usepackage{ragged2e}
-% \RaggedRight
+\RaggedRight
+\justifying
 \RequirePackage{graphicx}
 % \usepackage{fixltx2e}
 \parindent 12pt
@@ -122,7 +124,7 @@
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \RequirePackage{microtype}
-
+\usepackage{microtype}
 % Chapter thumbs
 %\RequirePackage{atveryend}
 
@@ -212,6 +214,7 @@
 \setlength\mybibindent{0pt}
 \renewenvironment{thebibliography}[1]
     {\chapter*{\bibname}%
+    \thispagestyle{empty}%
      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
      \list{\@biblabel{\@arabic\c@enumiv}}
           {\settowidth\labelwidth{\@biblabel{999}}
@@ -284,7 +287,8 @@
     \copyrightpage
     \maketitle
     \promoterenpage
-    \newpage
+    \thispagestyle{empty}
+    \cleartoleftpage
     \contentspage
 	% \listoffigures % optional
 }
@@ -368,15 +372,16 @@
     \noindent Prof. dr. Alessandra Cambi (voorzitter)\\
     \noindent Prof. dr. Ody C.M. Sibon (Rijksuniversiteit Groningen)\\
     \noindent Dr. ir. Ruben Bierings (Erasmus Medisch Centrum Rotterdam)
-    \newpage
+    \clearpage
     \rm
 }
 
 \newcommand{\contentspage}{
     \thispagestyle{empty}    
-    \newpage
     \pdfbookmark{\contentsname}{Contents}
+    \@openrightfalse
     \tableofcontents
+    \@openrighttrue
     \thispagestyle{empty}
     \clearpage
 }

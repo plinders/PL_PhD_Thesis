@@ -8,10 +8,13 @@
 \usepackage{lscape}
 \usepackage{array}
 \usepackage{breakcites}
+\usepackage{microtype}
 
 %\usepackage{atveryend}
 
 \begin{document}
+\RaggedRight
+\justifying
 \sloppy
 % the front matter
 % \input{frontmatter/personalize}
@@ -62,10 +65,12 @@
 % \bibliographystyle{naturemag}
 \stopthumb
 \begin{spacing}{\dcompressedspacing}
-    \addcontentsline{toc}{chapter}{References}
+    \addcontentsline{toc}{chapter}{\protect\hphantom{\numberline{\thesection}}References}
     \footnotesize
     \bibliography{refs.bib}
+    \thispagestyle{empty}
     \bibliographystyle{naturemag}
+    \thispagestyle{empty}
     % \include{endmatter/colophon}
 \end{spacing}
 
