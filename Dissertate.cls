@@ -45,7 +45,7 @@
     \newcommand{\dcompressedspacing}{1.0}
 }{
     \newcommand{\dnormalspacing}{1.2}
-    \newcommand{\dcompressedspacing}{1.2}
+    \newcommand{\dcompressedspacing}{1.0}
 }
 
 % Block quote with compressed spacing
@@ -92,7 +92,9 @@
 % Fonts.
 \RequirePackage{color}
 \RequirePackage{xcolor}
-\usepackage[breaklinks]{hyperref}
+
+\RequirePackage[breaklinks]{hyperref}
+
 \RequirePackage{breakcites}
 \RequirePackage{url}
 \RequirePackage{amssymb}
@@ -448,9 +450,9 @@
 
 % \usepackage[height={2cm},distance={2mm},topthumbmargin={auto},bottomthumbmargin={auto}]{thumbs}
 \usepackage[thumblink=rule,linefill=dots,height={auto},minheight={48pt},
-    width={auto},distance={6mm},topthumbmargin={auto},bottomthumbmargin={auto},
-    eventxtindent={5pt},oddtxtexdent={5pt},
-    evenmarkindent={0pt},oddmarkexdent={0pt},evenprintvoffset={0pt},
+    width={10mm},distance={6mm},topthumbmargin={auto},bottomthumbmargin={auto},
+    eventxtindent={12.3pt},oddtxtexdent={7.6pt},
+    evenmarkindent={-3mm},oddmarkexdent={-3mm},evenprintvoffset={0pt},
     nophantomsection=true,ignorehoffset=false,ignorevoffset=false,final=true,
     hidethumbs=false,verbose=true]{thumbs}
 
