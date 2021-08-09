@@ -321,8 +321,8 @@
     \noindent \textbf{Design} \\
     \noindent P.T.A. Linders \\
     \noindent \\
-   %  \noindent \textbf{Print} \\
-    % \noindent Gildeprint \\
+    \noindent \textbf{Print} \\
+    \noindent Proefschrift AIO (proefschrift-aio.nl) \\
     \noindent \\
     \noindent \\
 	\scshape \noindent \small \textbf{\copyright \small 2021\hspace{3pt}-- \theauthor} \\
