@@ -98,6 +98,7 @@
 \RequirePackage{breakcites}
 \RequirePackage{url}
 \RequirePackage{amssymb}
+
 \RequirePackage{mathspec}
 % \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
 
@@ -150,8 +151,8 @@
 % \fancyhead[RO]{\changefont \nouppercase{\rightmark}\chaptermark}     % Section in the right on odd pages
 %% Chapter name on left (even) page.
 %% Section name on right (odd) page.
-\fancyhead[LE]{\changefont \thepage \ \textcolor{chaptergrey}{|} \nouppercase{\leftmark}}
-\fancyhead[RO]{\changefont \nouppercase{\rightmark} \textcolor{chaptergrey}{|} \thepage}
+\fancyhead[LE]{\changefont \thepage \ \textcolor{chaptergrey}{\textbf{|}} \nouppercase{\leftmark}}
+\fancyhead[RO]{\changefont \nouppercase{\rightmark} \textcolor{chaptergrey}{\textbf{|}} \thepage}
 
 
 \assignpagestyle{\chapter}{empty}
@@ -460,6 +461,7 @@
 
 
 \usepackage{pagecolor}
+
 
 \makeatletter
 \def\cleartoleftpage{\clearpage\if@twoside \ifodd\c@page
