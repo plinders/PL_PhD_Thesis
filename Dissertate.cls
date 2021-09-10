@@ -319,7 +319,7 @@
     \noindent \small The research presented in this thesis was performed at the Department of Tumor Immunology at the Radboud Institute for Molecular Life Sciences, Radboud University Medical Center, Nijmegen, The Netherlands. The research presented in this thesis was financially supported by an NWO Vidi grant. \\
     \noindent \\
     \noindent \textbf{ISBN} \\
-    \noindent 1234567890123 \\
+    \noindent 978-94-93270-06-0 \\
     \noindent \\
     \noindent \textbf{Design} \\
     \noindent P.T.A. Linders \\
@@ -457,7 +457,7 @@
     nophantomsection=true,ignorehoffset=false,ignorevoffset=false,final=true,
     hidethumbs=false,verbose=true]{thumbs}
 
-\usepackage[cam,a4,center,dvips]{crop}
+% \usepackage[cam,a4,center,dvips]{crop}
 
 
 \usepackage{pagecolor}
