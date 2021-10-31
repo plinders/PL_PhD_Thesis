@@ -457,6 +457,7 @@
     nophantomsection=true,ignorehoffset=false,ignorevoffset=false,final=true,
     hidethumbs=false,verbose=true]{thumbs}
 
+% Adds crop marks
 % \usepackage[cam,a4,center,dvips]{crop}
 
 
